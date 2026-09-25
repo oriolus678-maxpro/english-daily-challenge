@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>🐻 奇幻英語樂園 🌟 A2 每日挑戰</title>
+  
+  <script src="https://unpkg.com/react@18/umd/react.development.js" crossorigin></script>
+  <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js" crossorigin></script>
+  <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+  <script src="https://cdn.tailwindcss.com"></script>
+  
+  <style>
+    body { font-family: 'Nunito', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; background-color: #fdf2f8; }
+    .cute-shadow { box-shadow: 0 10px 25px -5px rgba(236, 72, 153, 0.1), 0 8px 10px -6px rgba(236, 72, 153, 0.1); }
+    .loader { border: 5px solid #fce7f3; border-top: 5px solid #f472b6; border-radius: 50%; width: 50px; height: 50px; animation: spin 1s linear infinite; margin: 0 auto; }
+    @keyframes spin { 0% { transform: rotate(0deg); } 100% { transform: rotate(360deg); } }
+  </style>
+</head>
+<body class="text-gray-700">
+  <div id="root"></div>
+
+  <script type="text/babel">
+    const { useState, useEffect, useMemo } = React;
+
+    // --- 偽亂數洗牌演算法 (確保同一天重整題目不變) ---
+    function seededShuffle(array, seed) {
+      if (!array || !Array.isArray(array) || array.length === 0) return [];
+      let m = array.length, t, i;
+      let currentSeed = seed.split('').reduce((a, b) => {
+        a = ((a << 5) - a) + b.charCodeAt(0);
+        return a & a;
+      }, 0);
+      const random = () => {
+        let x = Math.sin(currentSeed++) * 10000;
+        return x - Math.floor(x);
+      };
+      const shuffledArray = [...array];
+      while (m) {
+        i = Math.floor(random() * m--);
+        t = shuffledArray[m];
+        shuffledArray[m] = shuffledArray[i];
+        shuffledArray[i] = t;
+      }
+      return shuffledArray;
+    }
+
+    function FantasyEnglishApp() {
+      const [currentDate, setCurrentDate] = useState(new Date());
+      const [answers, setAnswers] = useState({});
+      const [isSubmitted, setIsSubmitted] = useState(false);
+      const [score, setScore] = useState(0);
+      
+      const [quizData, setQuizData] = useState(null);
+      const [isLoading, setIsLoading] = useState(true);
+      const [errorMsg, setErrorMsg] = useState("");
+
+      // --- 載入外部題庫 ---
+      useEffect(() => {
+        setIsLoading(true);
+        fetch('quizData.json')
+          .then(response => {
+            if (!response.ok) throw new Error(`無法載入題庫檔案 (錯誤碼: ${response.status})`);
+            return response.json();
+          })
+          .then(data => {
+            setQuizData(data);
+            setIsLoading(false);
+          })
+          .catch(error => {
+            console.error('讀取題庫失敗:', error);
+            setErrorMsg("找不到 quizData.json！請確認您是在 GitHub Pages 網址下開啟網頁。");
+            setIsLoading(false);
+          });
+      }, []);
+
+      // --- 每日選題邏輯 ---
+      const todayConfig = useMemo(() => {
+        if (!quizData) return null;
+        const day = currentDate.getDay();
+        const dateSeedString = currentDate.toISOString().split('T')[0];
+        
+        try {
+          switch (day) {
+            case 1: case 5: 
+              return { title: "克漏字 (詞彙題)", type: "vocabulary", data: seededShuffle(quizData.vocabulary || [], dateSeedString).slice(0, 10) };
+            case 3: case 0: 
+              return { title: "文法選擇題", type: "grammar", data: seededShuffle(quizData.grammar || [], dateSeedString).slice(0, 10) };
+            case 2: case 4: case 6: 
+              return { title: "閱讀測驗", type: "reading", data: seededShuffle(quizData.reading || [], dateSeedString).slice(0, 2) };
+            default: 
+              return { title: "練習", type: "vocabulary", data: [] };
+          }
+        } catch (err) {
+          return { title: "Error", type: "error", data: [] };
+        }
+      }, [currentDate, quizData]);
+
+      if (isLoading) {
+        return (
+          <div className="min-h-screen flex items-center justify-center p-4">
+            <div className="bg-white rounded-[2rem] p-12 text-center cute-shadow">
+              <div className="loader mb-6"></div>
+              <h2 className="text-2xl font-bold text-pink-400">正在準備今天的魔法題庫...</h2>
+            </div>
+          </div>
+        );
+      }
+
+      if (errorMsg || !quizData || !todayConfig) {
+        return (
+          <div className="min-h-screen flex items-center justify-center p-4">
+            <div className="bg-white rounded-[2rem] p-8 text-center cute-shadow border-4 border-red-100 max-w-lg">
+              <h2 className="text-3xl font-bold mb-4 text-red-400">哎呀！迷路了 💦</h2>
+              <p className="font-bold text-gray-600">{errorMsg}</p>
+            </div>
+          </div>
+        );
+      }
+
+      let totalQuestions = todayConfig.type === "reading" 
+        ? todayConfig.data.reduce((acc, curr) => acc + (curr.questions ? curr.questions.length : 0), 0) 
+        : todayConfig.data.length;
+      
+      const answeredCount = Object.keys(answers).length;
+      const allAnswered = answeredCount === totalQuestions && totalQuestions > 0;
+      
+      const weekdays = ["日", "一", "二", "三", "四", "五", "六"];
+      const currentWeekday = weekdays[currentDate.getDay()];
+
+      const handleAnswerSelect = (questionId, optionPrefix) => {
+        if (isSubmitted) return;
+        setAnswers(prev => ({ ...prev, [questionId]: optionPrefix }));
+      };
+
+      const handleSubmit = () => {
+        if (!allAnswered) {
+          alert(`還有 ${totalQuestions - answeredCount} 題還沒挑戰完喔！加油！`);
+          return;
+        }
+        let correctAnswers = 0;
+        if (todayConfig.type === "reading") {
+          todayConfig.data.forEach(article => {
+            if (article.questions) article.questions.forEach(q => { if (answers[q.id] === q.correct) correctAnswers++; });
+          });
+        } else {
+          todayConfig.data.forEach(q => { if (answers[q.id] === q.correct) correctAnswers++; });
+        }
+        setScore(Math.round((correctAnswers / totalQuestions) * 100));
+        setIsSubmitted(true);
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+      };
+
+      const renderExplanation = (q) => {
+        if (!isSubmitted || !q.explanation) return null;
+        const isCorrect = answers[q.id] === q.correct;
+        return (
+          <div className={`mt-6 p-6 rounded-2xl ${isCorrect ? 'bg-green-50 border-2 border-green-200' : 'bg-red-50 border-2 border-red-200'}`}>
+            <div className="flex items-center gap-3 mb-4 border-b-2 border-white pb-3">
+              <span className="text-3xl">{isCorrect ? "🎉" : "💪"}</span>
+              <p className={`font-bold text-xl ${isCorrect ? 'text-green-600' : 'text-red-500'}`}>
+                {isCorrect ? "太棒了，答對囉！" : `差一點點！正確答案是：${q.correct}`}
+              </p>
+            </div>
+            <div className="space-y-4 text-gray-700 text-lg">
+              <div>
+                <span className="inline-block bg-blue-100 text-blue-600 font-bold px-3 py-1 rounded-full mb-2 text-sm">💡 中文翻譯</span>
+                <p className="font-bold mt-1">{q.explanation.translation}</p>
+              </div>
+              <div className="bg-white p-4 rounded-xl border-2 border-pink-50">
+                <span className="inline-block bg-yellow-100 text-yellow-700 font-bold px-3 py-1 rounded-full mb-2 text-sm">📚 單字小學堂</span>
+                <ul className="space-y-2 mt-2">
+                  {q.explanation.vocabulary && q.explanation.vocabulary.map((v, idx) => (
+                    <li key={idx}>
+                      <span className="font-bold text-pink-500 text-lg mr-2">{v.word}</span>
+                      <span className="text-gray-400 text-sm mr-2">({v.pos})</span>
+                      <span className="font-bold text-gray-700">{v.meaning}</span>
+                    </li>
+                  ))}
+                </ul>
+              </div>
+              <div>
+                <span className="inline-block bg-purple-100 text-purple-600 font-bold px-3 py-1 rounded-full mb-2 text-sm">🔍 觀念解析</span>
+                <p className="font-bold mt-1 text-gray-600">{q.explanation.grammar}</p>
+              </div>
+            </div>
+          </div>
+        );
+      };
+
+      return (
+        <div className="min-h-screen p-4 md:p-8 flex justify-center">
+          <div className="w-full max-w-4xl bg-white rounded-[2.5rem] p-6 md:p-10 cute-shadow">
+            
+            {/* 標題與日期選擇區 */}
+            <h1 className="text-3xl md:text-4xl font-black text-center text-pink-400 mb-8 tracking-wide">
+              🐻 奇幻英語樂園 🌟 A2 每日挑戰
+            </h1>
+            
+            <div className="bg-cyan-50 rounded-[2rem] p-4 flex flex-wrap items-center justify-center gap-3 mb-8">
+              <input type="date" value={currentDate.toISOString().split('T')[0]} 
+                onChange={(e) => { setCurrentDate(new Date(e.target.value)); setAnswers({}); setIsSubmitted(false); }} 
+                className="bg-white border-2 border-cyan-100 text-gray-600 font-bold rounded-full px-4 py-2 outline-none focus:border-cyan-300 cursor-pointer" />
+              <span className="bg-pink-400 text-white font-bold rounded-full px-5 py-2 shadow-sm">
+                {currentDate.getDate()} ({currentWeekday}) {todayConfig.title.split(' ')[0]}
+              </span>
+            </div>
+
+            {/* 任務提示框 */}
+            <div className="bg-[#fffbeb] border-2 border-dashed border-yellow-400 rounded-3xl p-6 mb-8 text-center">
+              <p className="text-xl font-bold text-gray-700 mb-2">✨ 星期{currentWeekday}任務：{todayConfig.title} (共 {totalQuestions} 題)</p>
+              <p className="text-gray-500 font-medium">準備好接受挑戰了嗎？選出最棒的答案吧！🚀</p>
+            </div>
+
+            {/* 測驗結果 */}
+            {isSubmitted && (
+               <div className="bg-pink-50 border-4 border-pink-200 rounded-3xl p-8 text-center mb-10 animate-bounce">
+                  <h3 className="text-3xl font-black text-pink-500 mb-2">🎉 挑戰完成！</h3>
+                  <p className="text-5xl font-black text-blue-500">{score} <span className="text-2xl text-gray-500">分</span></p>
+               </div>
+            )}
+
+            {/* 測驗題目區 */}
+            {totalQuestions === 0 ? (
+              <p className="text-center font-bold text-xl text-gray-400 py-10">💤 今天沒有排定的任務喔！</p>
+            ) : todayConfig.type === "reading" ? (
+              todayConfig.data.map((article, aIdx) => (
+                <div key={article.articleId} className="mb-12">
+                  <div className="bg-cyan-50 border-2 border-cyan-100 p-8 rounded-3xl mb-8 font-bold text-lg leading-loose text-gray-700">
+                    <span className="bg-cyan-400 text-white font-bold px-4 py-1 rounded-full mb-4 inline-block text-sm">📖 文章 {aIdx + 1}</span><br/>
+                    {article.articleText}
+                  </div>
+                  {article.questions && article.questions.map((q, qIdx) => (
+                    <div key={q.id} className="mb-10 pl-2 md:pl-6">
+                      <p className="font-bold text-xl mb-6 text-gray-800">{aIdx * 5 + qIdx + 1}. {q.question}</p>
+                      <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+                        {q.options.map(opt => {
+                          const optPrefix = opt.charAt(0);
+                          const isSelected = answers[q.id] === optPrefix;
+                          return (
+                            <button key={opt} onClick={() => handleAnswerSelect(q.id, optPrefix)} disabled={isSubmitted} 
+                              className={`text-left p-4 border-2 rounded-2xl font-bold text-lg transition-all ${isSelected ? 'bg-yellow-100 border-yellow-400 text-yellow-800 transform -translate-y-1' : 'bg-white border-gray-100 hover:border-pink-200'} ${isSubmitted && optPrefix === q.correct ? 'bg-green-100 border-green-400 text-green-800' : ''}`}>
+                              {opt}
+                            </button>
+                          );
+                        })}
+                      </div>
+                      {renderExplanation(q)}
+                    </div>
+                  ))}
+                </div>
+              ))
+            ) : (
+              todayConfig.data.map((q, qIdx) => (
+                <div key={q.id} className="mb-10 p-6 md:p-8 rounded-3xl border-2 border-gray-100 bg-white shadow-sm hover:shadow-md transition-shadow">
+                  <div className="flex items-start gap-4 mb-6">
+                    <span className="bg-pink-100 text-pink-500 font-black rounded-full w-10 h-10 flex items-center justify-center text-xl shrink-0">{qIdx + 1}</span>
+                    <p className="font-bold text-xl pt-1 text-gray-800">{q.question}</p>
+                  </div>
+                  <div className="grid grid-cols-1 md:grid-cols-2 gap-4 pl-0 md:pl-14">
+                    {q.options.map(opt => {
+                      const optPrefix = opt.charAt(0);
+                      const isSelected = answers[q.id] === optPrefix;
+                      return (
+                        <button key={opt} onClick={() => handleAnswerSelect(q.id, optPrefix)} disabled={isSubmitted} 
+                          className={`text-left p-4 border-2 rounded-2xl font-bold text-lg transition-all ${isSelected ? 'bg-yellow-100 border-yellow-400 text-yellow-800 transform -translate-y-1' : 'bg-white border-gray-100 hover:border-pink-200'} ${isSubmitted && optPrefix === q.correct ? 'bg-green-100 border-green-400 text-green-800' : ''}`}>
+                          {opt}
+                        </button>
+                      );
+                    })}
+                  </div>
+                  <div className="pl-0 md:pl-14">{renderExplanation(q)}</div>
+                </div>
+              ))
+            )}
+
+            {/* 交卷按鈕 */}
+            {totalQuestions > 0 && !isSubmitted && (
+              <div className="mt-12 text-center pt-8">
+                <div className="flex flex-col items-center gap-4">
+                  <button onClick={handleSubmit} disabled={!allAnswered} 
+                    className={`py-5 px-16 rounded-full font-black text-2xl tracking-wide transition-all ${allAnswered ? 'bg-pink-400 text-white shadow-lg hover:shadow-xl hover:bg-pink-500 transform hover:-translate-y-1' : 'bg-gray-100 text-gray-400 cursor-not-allowed'}`}>
+                    {allAnswered ? '✨ 完成作答，看成績！' : `請作答完 ${totalQuestions} 題喔`}
+                  </button>
+                </div>
+              </div>
+            )}
+          </div>
+        </div>
+      );
+    }
+
+    const root = ReactDOM.createRoot(document.getElementById('root'));
+    root.render(<FantasyEnglishApp />);
+  </script>
+</body>
+</html>
