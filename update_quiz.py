@@ -10,8 +10,8 @@ if not API_KEY:
 
 genai.configure(api_key=API_KEY)
 
-# 使用穩定且支援的 gemini-2.0-flash 模型
-model = genai.GenerativeModel('gemini-2.0-flash')
+# 使用穩定且支援的 gemini-3.8-flash 模型
+model = genai.GenerativeModel('gemini-3.8-flash')
 
 QUIZ_FILE = "quizData.json"
 
