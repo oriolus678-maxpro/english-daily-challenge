@@ -23,7 +23,7 @@ jobs:
 
       - name: 安裝相依套件
         run: |
-          pip install google-generativeai
+          pip install google-genai
 
       - name: 執行題庫生成腳本
         env:
