@@ -1,127 +1,2803 @@
 {
   "vocabulary": [
-    { "id": "v1", "question": "My brother usually ________ up at 6:30 AM every morning.", "options": ["A. wake", "B. wakes", "C. waking", "D. waked"], "correct": "B", "explanation": { "translation": "我哥哥通常每天早上 6:30 起床。", "vocabulary": [{ "word": "usually", "pos": "adv.", "meaning": "通常", "example": "I usually go to bed at 10 PM." }], "grammar": "主詞 My brother 為第三人稱單數，動詞需加上 s。", "phrase": "wake up (起床)" } },
-    { "id": "v2", "question": "The weather is very ________ today. Let's go swimming!", "options": ["A. cold", "B. hot", "C. rainy", "D. snowy"], "correct": "B", "explanation": { "translation": "今天天氣很熱。我們去游泳吧！", "vocabulary": [{ "word": "weather", "pos": "n.", "meaning": "天氣", "example": "The weather is nice today." }], "grammar": "Let's (Let us) 後面接原形動詞。", "phrase": "go swimming (去游泳)" } },
-    { "id": "v3", "question": "I am hungry. I want to buy some ________ from the bakery.", "options": ["A. bread", "B. books", "C. shoes", "D. water"], "correct": "A", "explanation": { "translation": "我餓了。我想從麵包店買些麵包。", "vocabulary": [{ "word": "bakery", "pos": "n.", "meaning": "麵包店", "example": "The bakery sells cakes." }], "grammar": "some 後面接不可數名詞 bread。", "phrase": "want to (想要)" } },
-    { "id": "v4", "question": "Please ________ the door when you leave the room.", "options": ["A. open", "B. close", "C. clean", "D. wash"], "correct": "B", "explanation": { "translation": "離開房間時請關門。", "vocabulary": [{ "word": "leave", "pos": "v.", "meaning": "離開", "example": "Leave the room." }], "grammar": "祈使句，開頭使用原形動詞。", "phrase": "leave the room (離開房間)" } },
-    { "id": "v5", "question": "My favorite ________ is Friday because the weekend starts.", "options": ["A. month", "B. year", "C. day", "D. time"], "correct": "C", "explanation": { "translation": "我最喜歡的一天是星期五。", "vocabulary": [{ "word": "favorite", "pos": "adj.", "meaning": "最喜歡的", "example": "Blue is my favorite color." }], "grammar": "Friday 對應的類別為 day。", "phrase": "None" } },
-    { "id": "v6", "question": "Can you ________ me your pen? I forgot mine.", "options": ["A. borrow", "B. lend", "C. take", "D. bring"], "correct": "B", "explanation": { "translation": "你可以借我你的筆嗎？", "vocabulary": [{ "word": "lend", "pos": "v.", "meaning": "借出", "example": "Can you lend me some money?" }], "grammar": "lend 表示借出給別人；borrow 是向別人借入。", "phrase": "None" } },
-    { "id": "v7", "question": "The ________ in the library are very helpful.", "options": ["A. doctors", "B. teachers", "C. librarians", "D. farmers"], "correct": "C", "explanation": { "translation": "圖書館員很有幫助。", "vocabulary": [{ "word": "librarian", "pos": "n.", "meaning": "圖書館員", "example": "Ask the librarian." }], "grammar": "根據圖書館情境推斷。", "phrase": "None" } },
-    { "id": "v8", "question": "We need to ________ right now, or we will miss the train.", "options": ["A. sleep", "B. eat", "C. leave", "D. stay"], "correct": "C", "explanation": { "translation": "我們現在必須離開了，否則會錯過火車。", "vocabulary": [{ "word": "miss", "pos": "v.", "meaning": "錯過", "example": "Miss the bus." }], "grammar": "or 連接子句表「否則」。", "phrase": "right now (現在)" } },
-    { "id": "v9", "question": "Eating too much candy is bad for your ________.", "options": ["A. hair", "B. teeth", "C. eyes", "D. ears"], "correct": "B", "explanation": { "translation": "吃太多糖果對你的牙齒不好。", "vocabulary": [{ "word": "teeth", "pos": "n.", "meaning": "牙齒", "example": "Brush your teeth." }], "grammar": "動名詞 Eating 作為主詞。", "phrase": "be bad for (對...有害)" } },
-    { "id": "v10", "question": "The supermarket is ________ the post office and the bank.", "options": ["A. next to", "B. behind", "C. between", "D. in front of"], "correct": "C", "explanation": { "translation": "超市在郵局和銀行之間。", "vocabulary": [{ "word": "supermarket", "pos": "n.", "meaning": "超級市場", "example": "Go to the supermarket." }], "grammar": "between A and B 表示在兩者之間。", "phrase": "between... and..." } },
-    { "id": "v11", "question": "My father ________ to work by bus every day.", "options": ["A. go", "B. goes", "C. going", "D. went"], "correct": "B", "explanation": { "translation": "我爸爸每天搭公車去上班。", "vocabulary": [{ "word": "work", "pos": "n./v.", "meaning": "工作", "example": "He works hard." }], "grammar": "主詞 My father 為第三人稱單數，動詞需加 s 或 es。", "phrase": "by bus (搭公車)" } },
-    { "id": "v12", "question": "The soup is too ________. I need some water.", "options": ["A. sweet", "B. sour", "C. salty", "D. bitter"], "correct": "C", "explanation": { "translation": "這湯太鹹了。我需要一些水。", "vocabulary": [{ "word": "salty", "pos": "adj.", "meaning": "鹹的", "example": "The food is too salty." }], "grammar": "根據 I need some water (需要水) 推斷是太鹹。", "phrase": "None" } },
-    { "id": "v13", "question": "She usually reads a ________ before she goes to sleep.", "options": ["A. book", "B. TV", "C. music", "D. radio"], "correct": "A", "explanation": { "translation": "她睡前通常會看書。", "vocabulary": [{ "word": "read", "pos": "v.", "meaning": "閱讀", "example": "Read a book." }], "grammar": "read a book 是固定搭配。", "phrase": "go to sleep (睡覺)" } },
-    { "id": "v14", "question": "Don't ________ to do your homework tonight.", "options": ["A. remember", "B. forget", "C. think", "D. know"], "correct": "B", "explanation": { "translation": "今晚別忘了做功課。", "vocabulary": [{ "word": "forget", "pos": "v.", "meaning": "忘記", "example": "Don't forget your keys." }], "grammar": "Don't forget to + V 表示「別忘了去做...」。", "phrase": "do homework (做功課)" } },
-    { "id": "v15", "question": "I have two ________. One is a doctor, and the other is a teacher.", "options": ["A. sister", "B. sisters", "C. a sister", "D. the sister"], "correct": "B", "explanation": { "translation": "我有兩個姊妹。一個是醫生，另一個是老師。", "vocabulary": [{ "word": "sister", "pos": "n.", "meaning": "姊妹", "example": "I have one sister." }], "grammar": "two 後面接複數名詞 sisters。", "phrase": "One is... the other is... (一個是...另一個是...)" } },
-    { "id": "v16", "question": "It's raining outside. You should take an ________ with you.", "options": ["A. apple", "B. elephant", "C. umbrella", "D. hour"], "correct": "C", "explanation": { "translation": "外面在下雨。你應該帶把傘。", "vocabulary": [{ "word": "umbrella", "pos": "n.", "meaning": "雨傘", "example": "Take an umbrella." }], "grammar": "下雨天需要帶雨傘。", "phrase": "take... with you (隨身帶著...)" } },
-    { "id": "v17", "question": "The boy is ________ the tree to get his kite.", "options": ["A. climbing", "B. swimming", "C. flying", "D. running"], "correct": "A", "explanation": { "translation": "男孩正在爬樹拿他的風箏。", "vocabulary": [{ "word": "climb", "pos": "v.", "meaning": "攀爬", "example": "Climb a mountain." }], "grammar": "根據 get his kite (拿風箏) 推斷動作是爬樹。", "phrase": "None" } },
-    { "id": "v18", "question": "We had a great ________ at the party last night.", "options": ["A. time", "B. clock", "C. watch", "D. hour"], "correct": "A", "explanation": { "translation": "我們昨晚在派對上玩得很開心。", "vocabulary": [{ "word": "party", "pos": "n.", "meaning": "派對", "example": "Go to a party." }], "grammar": "have a great time 是固定用法。", "phrase": "have a great time (玩得開心)" } },
-    { "id": "v19", "question": "I can't ________ my glasses. Have you seen them?", "options": ["A. look", "B. see", "C. find", "D. watch"], "correct": "C", "explanation": { "translation": "我找不到我的眼鏡。你有看到嗎？", "vocabulary": [{ "word": "find", "pos": "v.", "meaning": "找到", "example": "Find your keys." }], "grammar": "find 強調「找到」的結果；look 強調「尋找」的動作。", "phrase": "None" } },
-    { "id": "v20", "question": "Please turn off the ________ when you leave the room.", "options": ["A. water", "B. lights", "C. door", "D. window"], "correct": "B", "explanation": { "translation": "離開房間時請關燈。", "vocabulary": [{ "word": "light", "pos": "n.", "meaning": "電燈", "example": "Turn on the light." }], "grammar": "turn off 通常接電器用品，如 lights。", "phrase": "turn off (關閉)" } },
-    { "id": "v21", "question": "I am very ________. Can I have a glass of water?", "options": ["A. hungry", "B. thirsty", "C. angry", "D. tired"], "correct": "B", "explanation": { "translation": "我很口渴。我可以喝杯水嗎？", "vocabulary": [{ "word": "thirsty", "pos": "adj.", "meaning": "口渴的", "example": "I feel thirsty after running." }], "grammar": "根據後文 Can I have a glass of water 推斷出是口渴。", "phrase": "a glass of (一杯...)" } },
-    { "id": "v22", "question": "My mother bought some fresh ________ at the supermarket.", "options": ["A. books", "B. shoes", "C. vegetables", "D. cars"], "correct": "C", "explanation": { "translation": "我媽媽在超市買了一些新鮮的蔬菜。", "vocabulary": [{ "word": "vegetable", "pos": "n.", "meaning": "蔬菜", "example": "Eat more vegetables." }], "grammar": "fresh (新鮮的) 通常用來修飾食物。", "phrase": "None" } },
-    { "id": "v23", "question": "We use a ________ to take pictures.", "options": ["A. radio", "B. watch", "C. camera", "D. telephone"], "correct": "C", "explanation": { "translation": "我們用相機拍照。", "vocabulary": [{ "word": "camera", "pos": "n.", "meaning": "相機", "example": "Smile for the camera." }], "grammar": "take pictures (拍照) 的工具是相機。", "phrase": "take pictures (拍照)" } },
-    { "id": "v24", "question": "Please wash your ________ before you eat dinner.", "options": ["A. hands", "B. shoes", "C. eyes", "D. hair"], "correct": "A", "explanation": { "translation": "吃晚餐前請洗手。", "vocabulary": [{ "word": "wash", "pos": "v.", "meaning": "清洗", "example": "Wash the dishes." }], "grammar": "飯前洗手是常識。", "phrase": "eat dinner (吃晚餐)" } },
-    { "id": "v25", "question": "The ________ is yellow and tastes sour.", "options": ["A. apple", "B. lemon", "C. watermelon", "D. banana"], "correct": "B", "explanation": { "translation": "檸檬是黃色的，嚐起來酸酸的。", "vocabulary": [{ "word": "sour", "pos": "adj.", "meaning": "酸的", "example": "The milk went sour." }], "grammar": "tastes sour (嚐起來酸的) 對應的水果是 lemon。", "phrase": "None" } },
-    { "id": "v26", "question": "I usually do my ________ in the evening after dinner.", "options": ["A. breakfast", "B. homework", "C. shower", "D. face"], "correct": "B", "explanation": { "translation": "我通常在晚餐後的傍晚做功課。", "vocabulary": [{ "word": "homework", "pos": "n.", "meaning": "家庭作業", "example": "Finish your homework." }], "grammar": "do homework 搭配為做功課。", "phrase": "in the evening (在傍晚)" } },
-    { "id": "v27", "question": "My sister wants to be a ________ because she loves singing.", "options": ["A. doctor", "B. farmer", "C. singer", "D. driver"], "correct": "C", "explanation": { "translation": "我妹妹想成為一名歌手，因為她熱愛唱歌。", "vocabulary": [{ "word": "singer", "pos": "n.", "meaning": "歌手", "example": "A famous singer." }], "grammar": "loves singing 對應的職業是 singer。", "phrase": "want to be (想要成為)" } },
-    { "id": "v28", "question": "It is very ________ in winter here. You need a heavy coat.", "options": ["A. hot", "B. cold", "C. warm", "D. sunny"], "correct": "B", "explanation": { "translation": "這裡冬天很冷。你需要一件厚外套。", "vocabulary": [{ "word": "heavy", "pos": "adj.", "meaning": "重的；厚的", "example": "A heavy box." }], "grammar": "winter (冬天) 對應的天氣是 cold (冷的)。", "phrase": "None" } },
-    { "id": "v29", "question": "Do you like to ________ basketball with us after school?", "options": ["A. play", "B. do", "C. go", "D. make"], "correct": "A", "explanation": { "translation": "你放學後喜歡和我們一起打籃球嗎？", "vocabulary": [{ "word": "basketball", "pos": "n.", "meaning": "籃球", "example": "Play basketball." }], "grammar": "球類運動的動詞使用 play。", "phrase": "after school (放學後)" } },
-    { "id": "v30", "question": "Let's go to the ________ to watch a new movie.", "options": ["A. hospital", "B. bank", "C. theater", "D. post office"], "correct": "C", "explanation": { "translation": "我們去電影院看新電影吧。", "vocabulary": [{ "word": "theater", "pos": "n.", "meaning": "電影院；劇院", "example": "A movie theater." }], "grammar": "watch a movie 的地點是 theater。", "phrase": "None" } },
-    { "id": "v31", "question": "Today is ________. Tomorrow is Tuesday.", "options": ["A. Sunday", "B. Monday", "C. Wednesday", "D. Friday"], "correct": "B", "explanation": { "translation": "今天是星期一。明天是星期二。", "vocabulary": [{ "word": "tomorrow", "pos": "n./adv.", "meaning": "明天", "example": "See you tomorrow." }], "grammar": "星期二 (Tuesday) 的前一天是星期一 (Monday)。", "phrase": "None" } },
-    { "id": "v32", "question": "The ________ is running after the mouse.", "options": ["A. cat", "B. bird", "C. fish", "D. cow"], "correct": "A", "explanation": { "translation": "貓正在追老鼠。", "vocabulary": [{ "word": "mouse", "pos": "n.", "meaning": "老鼠 (複數為 mice)", "example": "Catch a mouse." }], "grammar": "追逐老鼠的動物最合理的是貓。", "phrase": "run after (追逐)" } },
-    { "id": "v33", "question": "I like to eat ________ because it is sweet and yummy.", "options": ["A. salt", "B. pepper", "C. chocolate", "D. beef"], "correct": "C", "explanation": { "translation": "我喜歡吃巧克力，因為它又甜又好吃。", "vocabulary": [{ "word": "sweet", "pos": "adj.", "meaning": "甜的", "example": "Sweet candy." }], "grammar": "選項中 sweet (甜的) 的食物是 chocolate。", "phrase": "None" } },
-    { "id": "v34", "question": "My favorite ________ is summer because I can go to the beach.", "options": ["A. subject", "B. color", "C. season", "D. sport"], "correct": "C", "explanation": { "translation": "我最喜歡的季節是夏天，因為我可以去海邊。", "vocabulary": [{ "word": "season", "pos": "n.", "meaning": "季節", "example": "Four seasons in a year." }], "grammar": "summer (夏天) 屬於 season (季節)。", "phrase": "go to the beach (去海灘)" } },
-    { "id": "v35", "question": "Please turn on the ________. It's too dark in here.", "options": ["A. fan", "B. radio", "C. lamp", "D. TV"], "correct": "C", "explanation": { "translation": "請打開檯燈。這裡太暗了。", "vocabulary": [{ "word": "dark", "pos": "adj.", "meaning": "黑暗的", "example": "It is getting dark." }], "grammar": "too dark (太暗) 時需要打開 lamp (燈)。", "phrase": "turn on (打開)" } },
-    { "id": "v36", "question": "We wait for the bus at the bus ________.", "options": ["A. stop", "B. stand", "C. shop", "D. seat"], "correct": "A", "explanation": { "translation": "我們在公車站等公車。", "vocabulary": [{ "word": "wait", "pos": "v.", "meaning": "等待", "example": "Wait for me." }], "grammar": "bus stop 為公車站的固定名詞用法。", "phrase": "wait for (等待...)" } },
-    { "id": "v37", "question": "I need a ________ of paper to write a letter.", "options": ["A. cup", "B. piece", "C. bottle", "D. glass"], "correct": "B", "explanation": { "translation": "我需要一張紙來寫信。", "vocabulary": [{ "word": "paper", "pos": "n.", "meaning": "紙張 (不可數)", "example": "Write on paper." }], "grammar": "紙張的量詞使用 a piece of。", "phrase": "a piece of (一張/一片)" } },
-    { "id": "v38", "question": "The little girl is crying because she is very ________.", "options": ["A. happy", "B. sad", "C. tall", "D. funny"], "correct": "B", "explanation": { "translation": "小女孩在哭，因為她非常難過。", "vocabulary": [{ "word": "cry", "pos": "v.", "meaning": "哭泣", "example": "Don't cry." }], "grammar": "crying (哭泣) 對應的情緒通常是 sad (難過)。", "phrase": "None" } },
-    { "id": "v39", "question": "We use our ________ to hear beautiful sounds.", "options": ["A. eyes", "B. nose", "C. ears", "D. mouth"], "correct": "C", "explanation": { "translation": "我們用耳朵聽美麗的聲音。", "vocabulary": [{ "word": "sound", "pos": "n.", "meaning": "聲音", "example": "A loud sound." }], "grammar": "hear (聽) 所使用的器官是 ears (耳朵)。", "phrase": "None" } },
-    { "id": "v40", "question": "There are seven days in a ________.", "options": ["A. year", "B. month", "C. week", "D. minute"], "correct": "C", "explanation": { "translation": "一個星期有七天。", "vocabulary": [{ "word": "week", "pos": "n.", "meaning": "星期；週", "example": "Next week." }], "grammar": "常識題，七天為一個 week (星期)。", "phrase": "None" } }
+    {
+      "id": "v1",
+      "question": "My brother usually ________ up at 6:30 AM every morning.",
+      "options": [
+        "A. wake",
+        "B. wakes",
+        "C. waking",
+        "D. waked"
+      ],
+      "correct": "B",
+      "explanation": {
+        "translation": "我哥哥通常每天早上 6:30 起床。",
+        "vocabulary": [
+          {
+            "word": "usually",
+            "pos": "adv.",
+            "meaning": "通常",
+            "example": "I usually go to bed at 10 PM."
+          }
+        ],
+        "grammar": "主詞 My brother 為第三人稱單數，動詞需加上 s。",
+        "phrase": "wake up (起床)"
+      }
+    },
+    {
+      "id": "v2",
+      "question": "The weather is very ________ today. Let's go swimming!",
+      "options": [
+        "A. cold",
+        "B. hot",
+        "C. rainy",
+        "D. snowy"
+      ],
+      "correct": "B",
+      "explanation": {
+        "translation": "今天天氣很熱。我們去游泳吧！",
+        "vocabulary": [
+          {
+            "word": "weather",
+            "pos": "n.",
+            "meaning": "天氣",
+            "example": "The weather is nice today."
+          }
+        ],
+        "grammar": "Let's (Let us) 後面接原形動詞。",
+        "phrase": "go swimming (去游泳)"
+      }
+    },
+    {
+      "id": "v3",
+      "question": "I am hungry. I want to buy some ________ from the bakery.",
+      "options": [
+        "A. bread",
+        "B. books",
+        "C. shoes",
+        "D. water"
+      ],
+      "correct": "A",
+      "explanation": {
+        "translation": "我餓了。我想從麵包店買些麵包。",
+        "vocabulary": [
+          {
+            "word": "bakery",
+            "pos": "n.",
+            "meaning": "麵包店",
+            "example": "The bakery sells cakes."
+          }
+        ],
+        "grammar": "some 後面接不可數名詞 bread。",
+        "phrase": "want to (想要)"
+      }
+    },
+    {
+      "id": "v4",
+      "question": "Please ________ the door when you leave the room.",
+      "options": [
+        "A. open",
+        "B. close",
+        "C. clean",
+        "D. wash"
+      ],
+      "correct": "B",
+      "explanation": {
+        "translation": "離開房間時請關門。",
+        "vocabulary": [
+          {
+            "word": "leave",
+            "pos": "v.",
+            "meaning": "離開",
+            "example": "Leave the room."
+          }
+        ],
+        "grammar": "祈使句，開頭使用原形動詞。",
+        "phrase": "leave the room (離開房間)"
+      }
+    },
+    {
+      "id": "v5",
+      "question": "My favorite ________ is Friday because the weekend starts.",
+      "options": [
+        "A. month",
+        "B. year",
+        "C. day",
+        "D. time"
+      ],
+      "correct": "C",
+      "explanation": {
+        "translation": "我最喜歡的一天是星期五。",
+        "vocabulary": [
+          {
+            "word": "favorite",
+            "pos": "adj.",
+            "meaning": "最喜歡的",
+            "example": "Blue is my favorite color."
+          }
+        ],
+        "grammar": "Friday 對應的類別為 day。",
+        "phrase": "None"
+      }
+    },
+    {
+      "id": "v6",
+      "question": "Can you ________ me your pen? I forgot mine.",
+      "options": [
+        "A. borrow",
+        "B. lend",
+        "C. take",
+        "D. bring"
+      ],
+      "correct": "B",
+      "explanation": {
+        "translation": "你可以借我你的筆嗎？",
+        "vocabulary": [
+          {
+            "word": "lend",
+            "pos": "v.",
+            "meaning": "借出",
+            "example": "Can you lend me some money?"
+          }
+        ],
+        "grammar": "lend 表示借出給別人；borrow 是向別人借入。",
+        "phrase": "None"
+      }
+    },
+    {
+      "id": "v7",
+      "question": "The ________ in the library are very helpful.",
+      "options": [
+        "A. doctors",
+        "B. teachers",
+        "C. librarians",
+        "D. farmers"
+      ],
+      "correct": "C",
+      "explanation": {
+        "translation": "圖書館員很有幫助。",
+        "vocabulary": [
+          {
+            "word": "librarian",
+            "pos": "n.",
+            "meaning": "圖書館員",
+            "example": "Ask the librarian."
+          }
+        ],
+        "grammar": "根據圖書館情境推斷。",
+        "phrase": "None"
+      }
+    },
+    {
+      "id": "v8",
+      "question": "We need to ________ right now, or we will miss the train.",
+      "options": [
+        "A. sleep",
+        "B. eat",
+        "C. leave",
+        "D. stay"
+      ],
+      "correct": "C",
+      "explanation": {
+        "translation": "我們現在必須離開了，否則會錯過火車。",
+        "vocabulary": [
+          {
+            "word": "miss",
+            "pos": "v.",
+            "meaning": "錯過",
+            "example": "Miss the bus."
+          }
+        ],
+        "grammar": "or 連接子句表「否則」。",
+        "phrase": "right now (現在)"
+      }
+    },
+    {
+      "id": "v9",
+      "question": "Eating too much candy is bad for your ________.",
+      "options": [
+        "A. hair",
+        "B. teeth",
+        "C. eyes",
+        "D. ears"
+      ],
+      "correct": "B",
+      "explanation": {
+        "translation": "吃太多糖果對你的牙齒不好。",
+        "vocabulary": [
+          {
+            "word": "teeth",
+            "pos": "n.",
+            "meaning": "牙齒",
+            "example": "Brush your teeth."
+          }
+        ],
+        "grammar": "動名詞 Eating 作為主詞。",
+        "phrase": "be bad for (對...有害)"
+      }
+    },
+    {
+      "id": "v10",
+      "question": "The supermarket is ________ the post office and the bank.",
+      "options": [
+        "A. next to",
+        "B. behind",
+        "C. between",
+        "D. in front of"
+      ],
+      "correct": "C",
+      "explanation": {
+        "translation": "超市在郵局和銀行之間。",
+        "vocabulary": [
+          {
+            "word": "supermarket",
+            "pos": "n.",
+            "meaning": "超級市場",
+            "example": "Go to the supermarket."
+          }
+        ],
+        "grammar": "between A and B 表示在兩者之間。",
+        "phrase": "between... and..."
+      }
+    },
+    {
+      "id": "v11",
+      "question": "My father ________ to work by bus every day.",
+      "options": [
+        "A. go",
+        "B. goes",
+        "C. going",
+        "D. went"
+      ],
+      "correct": "B",
+      "explanation": {
+        "translation": "我爸爸每天搭公車去上班。",
+        "vocabulary": [
+          {
+            "word": "work",
+            "pos": "n./v.",
+            "meaning": "工作",
+            "example": "He works hard."
+          }
+        ],
+        "grammar": "主詞 My father 為第三人稱單數，動詞需加 s 或 es。",
+        "phrase": "by bus (搭公車)"
+      }
+    },
+    {
+      "id": "v12",
+      "question": "The soup is too ________. I need some water.",
+      "options": [
+        "A. sweet",
+        "B. sour",
+        "C. salty",
+        "D. bitter"
+      ],
+      "correct": "C",
+      "explanation": {
+        "translation": "這湯太鹹了。我需要一些水。",
+        "vocabulary": [
+          {
+            "word": "salty",
+            "pos": "adj.",
+            "meaning": "鹹的",
+            "example": "The food is too salty."
+          }
+        ],
+        "grammar": "根據 I need some water (需要水) 推斷是太鹹。",
+        "phrase": "None"
+      }
+    },
+    {
+      "id": "v13",
+      "question": "She usually reads a ________ before she goes to sleep.",
+      "options": [
+        "A. book",
+        "B. TV",
+        "C. music",
+        "D. radio"
+      ],
+      "correct": "A",
+      "explanation": {
+        "translation": "她睡前通常會看書。",
+        "vocabulary": [
+          {
+            "word": "read",
+            "pos": "v.",
+            "meaning": "閱讀",
+            "example": "Read a book."
+          }
+        ],
+        "grammar": "read a book 是固定搭配。",
+        "phrase": "go to sleep (睡覺)"
+      }
+    },
+    {
+      "id": "v14",
+      "question": "Don't ________ to do your homework tonight.",
+      "options": [
+        "A. remember",
+        "B. forget",
+        "C. think",
+        "D. know"
+      ],
+      "correct": "B",
+      "explanation": {
+        "translation": "今晚別忘了做功課。",
+        "vocabulary": [
+          {
+            "word": "forget",
+            "pos": "v.",
+            "meaning": "忘記",
+            "example": "Don't forget your keys."
+          }
+        ],
+        "grammar": "Don't forget to + V 表示「別忘了去做...」。",
+        "phrase": "do homework (做功課)"
+      }
+    },
+    {
+      "id": "v15",
+      "question": "I have two ________. One is a doctor, and the other is a teacher.",
+      "options": [
+        "A. sister",
+        "B. sisters",
+        "C. a sister",
+        "D. the sister"
+      ],
+      "correct": "B",
+      "explanation": {
+        "translation": "我有兩個姊妹。一個是醫生，另一個是老師。",
+        "vocabulary": [
+          {
+            "word": "sister",
+            "pos": "n.",
+            "meaning": "姊妹",
+            "example": "I have one sister."
+          }
+        ],
+        "grammar": "two 後面接複數名詞 sisters。",
+        "phrase": "One is... the other is... (一個是...另一個是...)"
+      }
+    },
+    {
+      "id": "v16",
+      "question": "It's raining outside. You should take an ________ with you.",
+      "options": [
+        "A. apple",
+        "B. elephant",
+        "C. umbrella",
+        "D. hour"
+      ],
+      "correct": "C",
+      "explanation": {
+        "translation": "外面在下雨。你應該帶把傘。",
+        "vocabulary": [
+          {
+            "word": "umbrella",
+            "pos": "n.",
+            "meaning": "雨傘",
+            "example": "Take an umbrella."
+          }
+        ],
+        "grammar": "下雨天需要帶雨傘。",
+        "phrase": "take... with you (隨身帶著...)"
+      }
+    },
+    {
+      "id": "v17",
+      "question": "The boy is ________ the tree to get his kite.",
+      "options": [
+        "A. climbing",
+        "B. swimming",
+        "C. flying",
+        "D. running"
+      ],
+      "correct": "A",
+      "explanation": {
+        "translation": "男孩正在爬樹拿他的風箏。",
+        "vocabulary": [
+          {
+            "word": "climb",
+            "pos": "v.",
+            "meaning": "攀爬",
+            "example": "Climb a mountain."
+          }
+        ],
+        "grammar": "根據 get his kite (拿風箏) 推斷動作是爬樹。",
+        "phrase": "None"
+      }
+    },
+    {
+      "id": "v18",
+      "question": "We had a great ________ at the party last night.",
+      "options": [
+        "A. time",
+        "B. clock",
+        "C. watch",
+        "D. hour"
+      ],
+      "correct": "A",
+      "explanation": {
+        "translation": "我們昨晚在派對上玩得很開心。",
+        "vocabulary": [
+          {
+            "word": "party",
+            "pos": "n.",
+            "meaning": "派對",
+            "example": "Go to a party."
+          }
+        ],
+        "grammar": "have a great time 是固定用法。",
+        "phrase": "have a great time (玩得開心)"
+      }
+    },
+    {
+      "id": "v19",
+      "question": "I can't ________ my glasses. Have you seen them?",
+      "options": [
+        "A. look",
+        "B. see",
+        "C. find",
+        "D. watch"
+      ],
+      "correct": "C",
+      "explanation": {
+        "translation": "我找不到我的眼鏡。你有看到嗎？",
+        "vocabulary": [
+          {
+            "word": "find",
+            "pos": "v.",
+            "meaning": "找到",
+            "example": "Find your keys."
+          }
+        ],
+        "grammar": "find 強調「找到」的結果；look 強調「尋找」的動作。",
+        "phrase": "None"
+      }
+    },
+    {
+      "id": "v20",
+      "question": "Please turn off the ________ when you leave the room.",
+      "options": [
+        "A. water",
+        "B. lights",
+        "C. door",
+        "D. window"
+      ],
+      "correct": "B",
+      "explanation": {
+        "translation": "離開房間時請關燈。",
+        "vocabulary": [
+          {
+            "word": "light",
+            "pos": "n.",
+            "meaning": "電燈",
+            "example": "Turn on the light."
+          }
+        ],
+        "grammar": "turn off 通常接電器用品，如 lights。",
+        "phrase": "turn off (關閉)"
+      }
+    },
+    {
+      "id": "v21",
+      "question": "I am very ________. Can I have a glass of water?",
+      "options": [
+        "A. hungry",
+        "B. thirsty",
+        "C. angry",
+        "D. tired"
+      ],
+      "correct": "B",
+      "explanation": {
+        "translation": "我很口渴。我可以喝杯水嗎？",
+        "vocabulary": [
+          {
+            "word": "thirsty",
+            "pos": "adj.",
+            "meaning": "口渴的",
+            "example": "I feel thirsty after running."
+          }
+        ],
+        "grammar": "根據後文 Can I have a glass of water 推斷出是口渴。",
+        "phrase": "a glass of (一杯...)"
+      }
+    },
+    {
+      "id": "v22",
+      "question": "My mother bought some fresh ________ at the supermarket.",
+      "options": [
+        "A. books",
+        "B. shoes",
+        "C. vegetables",
+        "D. cars"
+      ],
+      "correct": "C",
+      "explanation": {
+        "translation": "我媽媽在超市買了一些新鮮的蔬菜。",
+        "vocabulary": [
+          {
+            "word": "vegetable",
+            "pos": "n.",
+            "meaning": "蔬菜",
+            "example": "Eat more vegetables."
+          }
+        ],
+        "grammar": "fresh (新鮮的) 通常用來修飾食物。",
+        "phrase": "None"
+      }
+    },
+    {
+      "id": "v23",
+      "question": "We use a ________ to take pictures.",
+      "options": [
+        "A. radio",
+        "B. watch",
+        "C. camera",
+        "D. telephone"
+      ],
+      "correct": "C",
+      "explanation": {
+        "translation": "我們用相機拍照。",
+        "vocabulary": [
+          {
+            "word": "camera",
+            "pos": "n.",
+            "meaning": "相機",
+            "example": "Smile for the camera."
+          }
+        ],
+        "grammar": "take pictures (拍照) 的工具是相機。",
+        "phrase": "take pictures (拍照)"
+      }
+    },
+    {
+      "id": "v24",
+      "question": "Please wash your ________ before you eat dinner.",
+      "options": [
+        "A. hands",
+        "B. shoes",
+        "C. eyes",
+        "D. hair"
+      ],
+      "correct": "A",
+      "explanation": {
+        "translation": "吃晚餐前請洗手。",
+        "vocabulary": [
+          {
+            "word": "wash",
+            "pos": "v.",
+            "meaning": "清洗",
+            "example": "Wash the dishes."
+          }
+        ],
+        "grammar": "飯前洗手是常識。",
+        "phrase": "eat dinner (吃晚餐)"
+      }
+    },
+    {
+      "id": "v25",
+      "question": "The ________ is yellow and tastes sour.",
+      "options": [
+        "A. apple",
+        "B. lemon",
+        "C. watermelon",
+        "D. banana"
+      ],
+      "correct": "B",
+      "explanation": {
+        "translation": "檸檬是黃色的，嚐起來酸酸的。",
+        "vocabulary": [
+          {
+            "word": "sour",
+            "pos": "adj.",
+            "meaning": "酸的",
+            "example": "The milk went sour."
+          }
+        ],
+        "grammar": "tastes sour (嚐起來酸的) 對應的水果是 lemon。",
+        "phrase": "None"
+      }
+    },
+    {
+      "id": "v26",
+      "question": "I usually do my ________ in the evening after dinner.",
+      "options": [
+        "A. breakfast",
+        "B. homework",
+        "C. shower",
+        "D. face"
+      ],
+      "correct": "B",
+      "explanation": {
+        "translation": "我通常在晚餐後的傍晚做功課。",
+        "vocabulary": [
+          {
+            "word": "homework",
+            "pos": "n.",
+            "meaning": "家庭作業",
+            "example": "Finish your homework."
+          }
+        ],
+        "grammar": "do homework 搭配為做功課。",
+        "phrase": "in the evening (在傍晚)"
+      }
+    },
+    {
+      "id": "v27",
+      "question": "My sister wants to be a ________ because she loves singing.",
+      "options": [
+        "A. doctor",
+        "B. farmer",
+        "C. singer",
+        "D. driver"
+      ],
+      "correct": "C",
+      "explanation": {
+        "translation": "我妹妹想成為一名歌手，因為她熱愛唱歌。",
+        "vocabulary": [
+          {
+            "word": "singer",
+            "pos": "n.",
+            "meaning": "歌手",
+            "example": "A famous singer."
+          }
+        ],
+        "grammar": "loves singing 對應的職業是 singer。",
+        "phrase": "want to be (想要成為)"
+      }
+    },
+    {
+      "id": "v28",
+      "question": "It is very ________ in winter here. You need a heavy coat.",
+      "options": [
+        "A. hot",
+        "B. cold",
+        "C. warm",
+        "D. sunny"
+      ],
+      "correct": "B",
+      "explanation": {
+        "translation": "這裡冬天很冷。你需要一件厚外套。",
+        "vocabulary": [
+          {
+            "word": "heavy",
+            "pos": "adj.",
+            "meaning": "重的；厚的",
+            "example": "A heavy box."
+          }
+        ],
+        "grammar": "winter (冬天) 對應的天氣是 cold (冷的)。",
+        "phrase": "None"
+      }
+    },
+    {
+      "id": "v29",
+      "question": "Do you like to ________ basketball with us after school?",
+      "options": [
+        "A. play",
+        "B. do",
+        "C. go",
+        "D. make"
+      ],
+      "correct": "A",
+      "explanation": {
+        "translation": "你放學後喜歡和我們一起打籃球嗎？",
+        "vocabulary": [
+          {
+            "word": "basketball",
+            "pos": "n.",
+            "meaning": "籃球",
+            "example": "Play basketball."
+          }
+        ],
+        "grammar": "球類運動的動詞使用 play。",
+        "phrase": "after school (放學後)"
+      }
+    },
+    {
+      "id": "v30",
+      "question": "Let's go to the ________ to watch a new movie.",
+      "options": [
+        "A. hospital",
+        "B. bank",
+        "C. theater",
+        "D. post office"
+      ],
+      "correct": "C",
+      "explanation": {
+        "translation": "我們去電影院看新電影吧。",
+        "vocabulary": [
+          {
+            "word": "theater",
+            "pos": "n.",
+            "meaning": "電影院；劇院",
+            "example": "A movie theater."
+          }
+        ],
+        "grammar": "watch a movie 的地點是 theater。",
+        "phrase": "None"
+      }
+    },
+    {
+      "id": "v31",
+      "question": "Today is ________. Tomorrow is Tuesday.",
+      "options": [
+        "A. Sunday",
+        "B. Monday",
+        "C. Wednesday",
+        "D. Friday"
+      ],
+      "correct": "B",
+      "explanation": {
+        "translation": "今天是星期一。明天是星期二。",
+        "vocabulary": [
+          {
+            "word": "tomorrow",
+            "pos": "n./adv.",
+            "meaning": "明天",
+            "example": "See you tomorrow."
+          }
+        ],
+        "grammar": "星期二 (Tuesday) 的前一天是星期一 (Monday)。",
+        "phrase": "None"
+      }
+    },
+    {
+      "id": "v32",
+      "question": "The ________ is running after the mouse.",
+      "options": [
+        "A. cat",
+        "B. bird",
+        "C. fish",
+        "D. cow"
+      ],
+      "correct": "A",
+      "explanation": {
+        "translation": "貓正在追老鼠。",
+        "vocabulary": [
+          {
+            "word": "mouse",
+            "pos": "n.",
+            "meaning": "老鼠 (複數為 mice)",
+            "example": "Catch a mouse."
+          }
+        ],
+        "grammar": "追逐老鼠的動物最合理的是貓。",
+        "phrase": "run after (追逐)"
+      }
+    },
+    {
+      "id": "v33",
+      "question": "I like to eat ________ because it is sweet and yummy.",
+      "options": [
+        "A. salt",
+        "B. pepper",
+        "C. chocolate",
+        "D. beef"
+      ],
+      "correct": "C",
+      "explanation": {
+        "translation": "我喜歡吃巧克力，因為它又甜又好吃。",
+        "vocabulary": [
+          {
+            "word": "sweet",
+            "pos": "adj.",
+            "meaning": "甜的",
+            "example": "Sweet candy."
+          }
+        ],
+        "grammar": "選項中 sweet (甜的) 的食物是 chocolate。",
+        "phrase": "None"
+      }
+    },
+    {
+      "id": "v34",
+      "question": "My favorite ________ is summer because I can go to the beach.",
+      "options": [
+        "A. subject",
+        "B. color",
+        "C. season",
+        "D. sport"
+      ],
+      "correct": "C",
+      "explanation": {
+        "translation": "我最喜歡的季節是夏天，因為我可以去海邊。",
+        "vocabulary": [
+          {
+            "word": "season",
+            "pos": "n.",
+            "meaning": "季節",
+            "example": "Four seasons in a year."
+          }
+        ],
+        "grammar": "summer (夏天) 屬於 season (季節)。",
+        "phrase": "go to the beach (去海灘)"
+      }
+    },
+    {
+      "id": "v35",
+      "question": "Please turn on the ________. It's too dark in here.",
+      "options": [
+        "A. fan",
+        "B. radio",
+        "C. lamp",
+        "D. TV"
+      ],
+      "correct": "C",
+      "explanation": {
+        "translation": "請打開檯燈。這裡太暗了。",
+        "vocabulary": [
+          {
+            "word": "dark",
+            "pos": "adj.",
+            "meaning": "黑暗的",
+            "example": "It is getting dark."
+          }
+        ],
+        "grammar": "too dark (太暗) 時需要打開 lamp (燈)。",
+        "phrase": "turn on (打開)"
+      }
+    },
+    {
+      "id": "v36",
+      "question": "We wait for the bus at the bus ________.",
+      "options": [
+        "A. stop",
+        "B. stand",
+        "C. shop",
+        "D. seat"
+      ],
+      "correct": "A",
+      "explanation": {
+        "translation": "我們在公車站等公車。",
+        "vocabulary": [
+          {
+            "word": "wait",
+            "pos": "v.",
+            "meaning": "等待",
+            "example": "Wait for me."
+          }
+        ],
+        "grammar": "bus stop 為公車站的固定名詞用法。",
+        "phrase": "wait for (等待...)"
+      }
+    },
+    {
+      "id": "v37",
+      "question": "I need a ________ of paper to write a letter.",
+      "options": [
+        "A. cup",
+        "B. piece",
+        "C. bottle",
+        "D. glass"
+      ],
+      "correct": "B",
+      "explanation": {
+        "translation": "我需要一張紙來寫信。",
+        "vocabulary": [
+          {
+            "word": "paper",
+            "pos": "n.",
+            "meaning": "紙張 (不可數)",
+            "example": "Write on paper."
+          }
+        ],
+        "grammar": "紙張的量詞使用 a piece of。",
+        "phrase": "a piece of (一張/一片)"
+      }
+    },
+    {
+      "id": "v38",
+      "question": "The little girl is crying because she is very ________.",
+      "options": [
+        "A. happy",
+        "B. sad",
+        "C. tall",
+        "D. funny"
+      ],
+      "correct": "B",
+      "explanation": {
+        "translation": "小女孩在哭，因為她非常難過。",
+        "vocabulary": [
+          {
+            "word": "cry",
+            "pos": "v.",
+            "meaning": "哭泣",
+            "example": "Don't cry."
+          }
+        ],
+        "grammar": "crying (哭泣) 對應的情緒通常是 sad (難過)。",
+        "phrase": "None"
+      }
+    },
+    {
+      "id": "v39",
+      "question": "We use our ________ to hear beautiful sounds.",
+      "options": [
+        "A. eyes",
+        "B. nose",
+        "C. ears",
+        "D. mouth"
+      ],
+      "correct": "C",
+      "explanation": {
+        "translation": "我們用耳朵聽美麗的聲音。",
+        "vocabulary": [
+          {
+            "word": "sound",
+            "pos": "n.",
+            "meaning": "聲音",
+            "example": "A loud sound."
+          }
+        ],
+        "grammar": "hear (聽) 所使用的器官是 ears (耳朵)。",
+        "phrase": "None"
+      }
+    },
+    {
+      "id": "v40",
+      "question": "There are seven days in a ________.",
+      "options": [
+        "A. year",
+        "B. month",
+        "C. week",
+        "D. minute"
+      ],
+      "correct": "C",
+      "explanation": {
+        "translation": "一個星期有七天。",
+        "vocabulary": [
+          {
+            "word": "week",
+            "pos": "n.",
+            "meaning": "星期；週",
+            "example": "Next week."
+          }
+        ],
+        "grammar": "常識題，七天為一個 week (星期)。",
+        "phrase": "None"
+      }
+    },
+    {
+      "id": "v41",
+      "question": "The night market is always ________ on weekends because many tourists love to try local street food there.",
+      "options": [
+        "A. crowded",
+        "B. lonely",
+        "C. boring",
+        "D. quiet"
+      ],
+      "correct": "A",
+      "explanation": {
+        "translation": "夜市在週末總是很擁擠，因為許多遊客喜歡在那裡品嚐當地街頭小吃。",
+        "vocabulary": [
+          {
+            "word": "crowded",
+            "pos": "adj.",
+            "meaning": "擁擠的",
+            "example": "The train was so crowded that I couldn't find a seat."
+          },
+          {
+            "word": "tourist",
+            "pos": "n.",
+            "meaning": "遊客",
+            "example": "Millions of tourists visit Taiwan every year."
+          }
+        ],
+        "grammar": "形容詞用法：be + adj. 形容地方狀態。",
+        "phrase": "None"
+      }
+    },
+    {
+      "id": "v42",
+      "question": "You can ________ up to three books from the school library, but you must return them in two weeks.",
+      "options": [
+        "A. lend",
+        "B. borrow",
+        "C. sell",
+        "D. waste"
+      ],
+      "correct": "B",
+      "explanation": {
+        "translation": "你可以從學校圖書館借最多三本書，但你必須在兩週內歸還。",
+        "vocabulary": [
+          {
+            "word": "borrow",
+            "pos": "v.",
+            "meaning": "借入",
+            "example": "Can I borrow your pencil for a minute?"
+          },
+          {
+            "word": "return",
+            "pos": "v.",
+            "meaning": "歸還",
+            "example": "Don't forget to return the books to the library."
+          }
+        ],
+        "grammar": "borrow ... from ... 表示「向……借入……」；lend ... to ... 則是「借出……給……」。",
+        "phrase": "up to (高達、最多)"
+      }
+    },
+    {
+      "id": "v43",
+      "question": "If you have a serious cold and a high fever, you should take this ________ after meals and rest well.",
+      "options": [
+        "A. garbage",
+        "B. medicine",
+        "C. ticket",
+        "D. plastic"
+      ],
+      "correct": "B",
+      "explanation": {
+        "translation": "如果你感冒很嚴重且發高燒，你應該在飯後吃這種藥並好好休息。",
+        "vocabulary": [
+          {
+            "word": "medicine",
+            "pos": "n.",
+            "meaning": "藥物",
+            "example": "The doctor told me to take the medicine three times a day."
+          },
+          {
+            "word": "fever",
+            "pos": "n.",
+            "meaning": "發燒",
+            "example": "She stayed in bed because she had a fever."
+          }
+        ],
+        "grammar": "搭配詞用法：「吃藥」英語慣用動詞 take，即 take medicine。",
+        "phrase": "take medicine (吃藥)"
+      }
+    },
+    {
+      "id": "v44",
+      "question": "Linda was so glad when she received an ________ to Peter's birthday party yesterday.",
+      "options": [
+        "A. invitation",
+        "B. instrument",
+        "C. accident",
+        "D. apartment"
+      ],
+      "correct": "A",
+      "explanation": {
+        "translation": "琳達昨天收到彼得生日派對的邀請函時非常高興。",
+        "vocabulary": [
+          {
+            "word": "invitation",
+            "pos": "n.",
+            "meaning": "邀請；邀請函",
+            "example": "We sent an invitation to all our close friends."
+          },
+          {
+            "word": "receive",
+            "pos": "v.",
+            "meaning": "收到",
+            "example": "Did you receive my email this morning?"
+          }
+        ],
+        "grammar": "名詞搭配介系詞：an invitation to + 活動/地點，表示「……的邀請函」。",
+        "phrase": "an invitation to (……的邀請函)"
+      }
+    },
+    {
+      "id": "v45",
+      "question": "Leo felt extremely ________ before giving a speech in front of the whole school.",
+      "options": [
+        "A. nervous",
+        "B. delicious",
+        "C. polite",
+        "D. bright"
+      ],
+      "correct": "A",
+      "explanation": {
+        "translation": "李奧在全校面前發表演講前感到非常緊張。",
+        "vocabulary": [
+          {
+            "word": "nervous",
+            "pos": "adj.",
+            "meaning": "緊張的",
+            "example": "I always feel nervous before taking an exam."
+          },
+          {
+            "word": "speech",
+            "pos": "n.",
+            "meaning": "演講",
+            "example": "The principal gave an inspiring speech to the students."
+          }
+        ],
+        "grammar": "連綴動詞用法：feel + 形容詞，表示「感到……」。",
+        "phrase": "give a speech (發表演講)"
+      }
+    },
+    {
+      "id": "v46",
+      "question": "To reduce waste and ________ our environment, we should bring our own shopping bags.",
+      "options": [
+        "A. punish",
+        "B. protect",
+        "C. attack",
+        "D. forget"
+      ],
+      "correct": "B",
+      "explanation": {
+        "translation": "為了減少垃圾並保護我們的環境，我們應該攜帶自己的購物袋。",
+        "vocabulary": [
+          {
+            "word": "protect",
+            "pos": "v.",
+            "meaning": "保護",
+            "example": "We need to protect wild animals from hunting."
+          },
+          {
+            "word": "environment",
+            "pos": "n.",
+            "meaning": "環境",
+            "example": "Plastic bags are harmful to the marine environment."
+          }
+        ],
+        "grammar": "不定詞表目的：To + 原形動詞（To reduce ... and protect ...）。",
+        "phrase": "None"
+      }
+    },
+    {
+      "id": "v47",
+      "question": "Because of heavy ________ during rush hour, it took Dad nearly an hour to drive home.",
+      "options": [
+        "A. hobby",
+        "B. weather",
+        "C. traffic",
+        "D. culture"
+      ],
+      "correct": "C",
+      "explanation": {
+        "translation": "因為尖峰時間交通壅塞，爸爸花了將近一個小時才開車到家。",
+        "vocabulary": [
+          {
+            "word": "traffic",
+            "pos": "n.",
+            "meaning": "交通",
+            "example": "There is usually heavy traffic on the highway on Sunday evenings."
+          },
+          {
+            "word": "rush hour",
+            "pos": "n.",
+            "meaning": "交通尖峰時間",
+            "example": "Avoid taking buses during rush hour."
+          }
+        ],
+        "grammar": "形容詞與名詞搭配：heavy traffic 表示「交通繁忙、大塞車」，traffic 為不可數名詞。",
+        "phrase": "rush hour (尖峰時間)"
+      }
+    },
+    {
+      "id": "v48",
+      "question": "Learning a foreign ________ helps us communicate with people from different countries easily.",
+      "options": [
+        "A. factory",
+        "B. language",
+        "C. uniform",
+        "D. package"
+      ],
+      "correct": "B",
+      "explanation": {
+        "translation": "學習外語有助於我們輕鬆地與來自不同國家的人溝通。",
+        "vocabulary": [
+          {
+            "word": "language",
+            "pos": "n.",
+            "meaning": "語言",
+            "example": "English is an international language used around the world."
+          },
+          {
+            "word": "communicate",
+            "pos": "v.",
+            "meaning": "溝通",
+            "example": "They communicate by sending messages on the app."
+          }
+        ],
+        "grammar": "動名詞當主詞：Learning a foreign language 為單數主詞，後接單數動詞 helps。",
+        "phrase": "communicate with (與……溝通)"
+      }
+    },
+    {
+      "id": "v49",
+      "question": "David ________ the job offer because the office was too far from his house.",
+      "options": [
+        "A. refused",
+        "B. invited",
+        "C. collected",
+        "D. enjoyed"
+      ],
+      "correct": "A",
+      "explanation": {
+        "translation": "大衛拒絕了這份工作邀約，因為辦公室離他家太遠了。",
+        "vocabulary": [
+          {
+            "word": "refuse",
+            "pos": "v.",
+            "meaning": "拒絕",
+            "example": "She refused to answer any personal questions."
+          },
+          {
+            "word": "offer",
+            "pos": "n.",
+            "meaning": "提議；錄取通知",
+            "example": "He accepted an offer from a famous technology company."
+          }
+        ],
+        "grammar": "連接詞 because 引導原因副詞子句，前後時態一致使用過去式。",
+        "phrase": "None"
+      }
+    },
+    {
+      "id": "v50",
+      "question": "After years of hard work, Ms. Lin finally became a ________ businesswoman.",
+      "options": [
+        "A. painful",
+        "B. dangerous",
+        "C. successful",
+        "D. careless"
+      ],
+      "correct": "C",
+      "explanation": {
+        "translation": "經過多年的努力，林女士終於成為一位成功的女企業家。",
+        "vocabulary": [
+          {
+            "word": "successful",
+            "pos": "adj.",
+            "meaning": "成功的",
+            "example": "His new restaurant became very successful within months."
+          },
+          {
+            "word": "businesswoman",
+            "pos": "n.",
+            "meaning": "女商人；女企業家",
+            "example": "My aunt is a talented businesswoman."
+          }
+        ],
+        "grammar": "形容詞修飾名詞：successful businesswoman (成功的女企業家)。",
+        "phrase": "None"
+      }
+    }
   ],
   "grammar": [
-    { "id": "g1", "question": "Look! The dog ________ after the cat.", "options": ["A. runs", "B. ran", "C. is running", "D. has run"], "correct": "C", "explanation": { "translation": "看！那隻狗正在追那隻貓。", "vocabulary": [{ "word": "after", "pos": "prep.", "meaning": "在...之後", "example": "Come after me." }], "grammar": "句首有 'Look!' 表動作正在發生，用現在進行式。", "phrase": "run after (追逐)" } },
-    { "id": "g2", "question": "I didn't ________ to the park yesterday.", "options": ["A. go", "B. went", "C. going", "D. goes"], "correct": "A", "explanation": { "translation": "我昨天沒去公園。", "vocabulary": [{ "word": "park", "pos": "n.", "meaning": "公園", "example": "Play in the park." }], "grammar": "助動詞 didn't 後接原形動詞。", "phrase": "None" } },
-    { "id": "g3", "question": "Tom is ________ than his brother.", "options": ["A. tall", "B. taller", "C. tallest", "D. the tallest"], "correct": "B", "explanation": { "translation": "湯姆比他哥哥高。", "vocabulary": [{ "word": "tall", "pos": "adj.", "meaning": "高的", "example": "He is tall." }], "grammar": "出現 'than' 須用比較級。", "phrase": "None" } },
-    { "id": "g4", "question": "We usually have lunch ________ noon.", "options": ["A. in", "B. on", "C. at", "D. to"], "correct": "C", "explanation": { "translation": "我們通常在正午吃午餐。", "vocabulary": [{ "word": "noon", "pos": "n.", "meaning": "中午", "example": "See you at noon." }], "grammar": "特定短暫時間點用介系詞 at。", "phrase": "have lunch (吃午餐)" } },
-    { "id": "g5", "question": "If it rains tomorrow, we ________ at home.", "options": ["A. will stay", "B. stayed", "C. staying", "D. stay"], "correct": "A", "explanation": { "translation": "如果明天下雨，我們將待在家。", "vocabulary": [{ "word": "stay", "pos": "v.", "meaning": "待在", "example": "Stay home." }], "grammar": "條件句第一型，If 子句用現在式，主要子句用未來式。", "phrase": "stay at home (待在家)" } },
-    { "id": "g6", "question": "This is the ________ book I have ever read.", "options": ["A. interesting", "B. more interesting", "C. most interesting", "D. much interesting"], "correct": "C", "explanation": { "translation": "這是我讀過最有趣的書。", "vocabulary": [{ "word": "interesting", "pos": "adj.", "meaning": "有趣的", "example": "An interesting book." }], "grammar": "配合 I have ever read 必須使用最高級。", "phrase": "None" } },
-    { "id": "g7", "question": "There ________ a lot of people at the concert last night.", "options": ["A. is", "B. are", "C. was", "D. were"], "correct": "D", "explanation": { "translation": "昨晚演唱會很多人。", "vocabulary": [{ "word": "concert", "pos": "n.", "meaning": "演唱會", "example": "Go to a concert." }], "grammar": "過去式且主詞為複數，be動詞用 were。", "phrase": "a lot of (許多的)" } },
-    { "id": "g8", "question": "She likes playing the piano, ________ she?", "options": ["A. does", "B. doesn't", "C. is", "D. isn't"], "correct": "B", "explanation": { "translation": "她喜歡彈鋼琴，不是嗎？", "vocabulary": [{ "word": "piano", "pos": "n.", "meaning": "鋼琴", "example": "Play the piano." }], "grammar": "附加問句前肯後否，likes 為一般動詞，用 doesn't。", "phrase": "play the piano (彈鋼琴)" } },
-    { "id": "g9", "question": "I enjoy ________ to music in my free time.", "options": ["A. listen", "B. listening", "C. to listen", "D. listened"], "correct": "B", "explanation": { "translation": "我享受空閒時聽音樂。", "vocabulary": [{ "word": "enjoy", "pos": "v.", "meaning": "享受", "example": "Enjoy reading." }], "grammar": "enjoy 後接動名詞 V-ing 作受詞。", "phrase": "listen to (聽)" } },
-    { "id": "g10", "question": "Have you ________ finished your homework?", "options": ["A. ever", "B. never", "C. already", "D. yet"], "correct": "C", "explanation": { "translation": "你已經完成作業了嗎？", "vocabulary": [{ "word": "homework", "pos": "n.", "meaning": "作業", "example": "Do homework." }], "grammar": "完成式中 already 通常放助動詞與過去分詞之間。", "phrase": "None" } },
-    { "id": "g11", "question": "________ you like to drink some tea?", "options": ["A. Do", "B. Are", "C. Would", "D. Will"], "correct": "C", "explanation": { "translation": "你想要喝些茶嗎？", "vocabulary": [{ "word": "drink", "pos": "v.", "meaning": "喝", "example": "Drink some water." }], "grammar": "Would you like... 是一種客氣的提議或邀請用法。", "phrase": "Would you like to (你想要...嗎)" } },
-    { "id": "g12", "question": "He has lived in Taipei ________ ten years.", "options": ["A. since", "B. for", "C. in", "D. from"], "correct": "B", "explanation": { "translation": "他已經住在台北十年了。", "vocabulary": [{ "word": "live", "pos": "v.", "meaning": "居住", "example": "Live in a house." }], "grammar": "現在完成式中，for 後面接「一段時間」。", "phrase": "None" } },
-    { "id": "g13", "question": "I don't have ________ money in my pocket.", "options": ["A. some", "B. any", "C. many", "D. few"], "correct": "B", "explanation": { "translation": "我口袋裡沒有任何錢。", "vocabulary": [{ "word": "pocket", "pos": "n.", "meaning": "口袋", "example": "Put it in your pocket." }], "grammar": "在否定句或疑問句中，通常使用 any 來代替 some。", "phrase": "None" } },
-    { "id": "g14", "question": "The boy ________ is wearing a red hat is my cousin.", "options": ["A. who", "B. which", "C. whose", "D. whom"], "correct": "A", "explanation": { "translation": "戴著紅帽子的那個男孩是我表哥。", "vocabulary": [{ "word": "cousin", "pos": "n.", "meaning": "表/堂兄弟姊妹", "example": "She is my cousin." }], "grammar": "先行詞 The boy 是「人」，且在子句中作主詞，關係代名詞用 who。", "phrase": "None" } },
-    { "id": "g15", "question": "My mother made me ________ the room.", "options": ["A. clean", "B. cleaning", "C. to clean", "D. cleaned"], "correct": "A", "explanation": { "translation": "我媽媽叫我打掃房間。", "vocabulary": [{ "word": "make", "pos": "v.", "meaning": "使；迫使", "example": "Make him cry." }], "grammar": "make 作為使役動詞，後面接原形動詞。", "phrase": "make someone do something (使某人做某事)" } },
-    { "id": "g16", "question": "English is ________ by many people all over the world.", "options": ["A. speak", "B. spoke", "C. speaking", "D. spoken"], "correct": "D", "explanation": { "translation": "英文被世界上許多人使用。", "vocabulary": [{ "word": "speak", "pos": "v.", "meaning": "說(語言)", "example": "Speak English." }], "grammar": "被動語態的結構為 be 動詞 + 過去分詞 (p.p.)。", "phrase": "all over the world (全世界)" } },
-    { "id": "g17", "question": "We will go on a picnic ________ Sunday morning.", "options": ["A. in", "B. on", "C. at", "D. to"], "correct": "B", "explanation": { "translation": "我們星期天早上要去野餐。", "vocabulary": [{ "word": "picnic", "pos": "n.", "meaning": "野餐", "example": "Go on a picnic." }], "grammar": "表示在特定的某一天 (或某天的早上/下午/晚上)，介系詞用 on。", "phrase": "go on a picnic (去野餐)" } },
-    { "id": "g18", "question": "I think playing baseball is ________ than watching it.", "options": ["A. fun", "B. more fun", "C. most fun", "D. funniest"], "correct": "B", "explanation": { "translation": "我認為打棒球比看棒球更有趣。", "vocabulary": [{ "word": "baseball", "pos": "n.", "meaning": "棒球", "example": "Play baseball." }], "grammar": "有 than 須用比較級，fun 的比較級是 more fun。", "phrase": "None" } },
-    { "id": "g19", "question": "Please speak ________ so that everyone can hear you.", "options": ["A. loud", "B. louder", "C. loudly", "D. loudest"], "correct": "C", "explanation": { "translation": "請大聲點說話，這樣大家才能聽到。", "vocabulary": [{ "word": "hear", "pos": "v.", "meaning": "聽到", "example": "I can hear you." }], "grammar": "修飾動詞 speak 需要使用副詞 loudly。", "phrase": "so that (以便)" } },
-    { "id": "g20", "question": "________ beautiful flowers they are!", "options": ["A. How", "B. What", "C. Very", "D. So"], "correct": "B", "explanation": { "translation": "多麼美麗的花啊！", "vocabulary": [{ "word": "beautiful", "pos": "adj.", "meaning": "美麗的", "example": "A beautiful girl." }], "grammar": "感嘆句句型：What + (a/an) + 形容詞 + 名詞 + (主詞 + 動詞)!", "phrase": "None" } }
+    {
+      "id": "g1",
+      "question": "Look! The dog ________ after the cat.",
+      "options": [
+        "A. runs",
+        "B. ran",
+        "C. is running",
+        "D. has run"
+      ],
+      "correct": "C",
+      "explanation": {
+        "translation": "看！那隻狗正在追那隻貓。",
+        "vocabulary": [
+          {
+            "word": "after",
+            "pos": "prep.",
+            "meaning": "在...之後",
+            "example": "Come after me."
+          }
+        ],
+        "grammar": "句首有 'Look!' 表動作正在發生，用現在進行式。",
+        "phrase": "run after (追逐)"
+      }
+    },
+    {
+      "id": "g2",
+      "question": "I didn't ________ to the park yesterday.",
+      "options": [
+        "A. go",
+        "B. went",
+        "C. going",
+        "D. goes"
+      ],
+      "correct": "A",
+      "explanation": {
+        "translation": "我昨天沒去公園。",
+        "vocabulary": [
+          {
+            "word": "park",
+            "pos": "n.",
+            "meaning": "公園",
+            "example": "Play in the park."
+          }
+        ],
+        "grammar": "助動詞 didn't 後接原形動詞。",
+        "phrase": "None"
+      }
+    },
+    {
+      "id": "g3",
+      "question": "Tom is ________ than his brother.",
+      "options": [
+        "A. tall",
+        "B. taller",
+        "C. tallest",
+        "D. the tallest"
+      ],
+      "correct": "B",
+      "explanation": {
+        "translation": "湯姆比他哥哥高。",
+        "vocabulary": [
+          {
+            "word": "tall",
+            "pos": "adj.",
+            "meaning": "高的",
+            "example": "He is tall."
+          }
+        ],
+        "grammar": "出現 'than' 須用比較級。",
+        "phrase": "None"
+      }
+    },
+    {
+      "id": "g4",
+      "question": "We usually have lunch ________ noon.",
+      "options": [
+        "A. in",
+        "B. on",
+        "C. at",
+        "D. to"
+      ],
+      "correct": "C",
+      "explanation": {
+        "translation": "我們通常在正午吃午餐。",
+        "vocabulary": [
+          {
+            "word": "noon",
+            "pos": "n.",
+            "meaning": "中午",
+            "example": "See you at noon."
+          }
+        ],
+        "grammar": "特定短暫時間點用介系詞 at。",
+        "phrase": "have lunch (吃午餐)"
+      }
+    },
+    {
+      "id": "g5",
+      "question": "If it rains tomorrow, we ________ at home.",
+      "options": [
+        "A. will stay",
+        "B. stayed",
+        "C. staying",
+        "D. stay"
+      ],
+      "correct": "A",
+      "explanation": {
+        "translation": "如果明天下雨，我們將待在家。",
+        "vocabulary": [
+          {
+            "word": "stay",
+            "pos": "v.",
+            "meaning": "待在",
+            "example": "Stay home."
+          }
+        ],
+        "grammar": "條件句第一型，If 子句用現在式，主要子句用未來式。",
+        "phrase": "stay at home (待在家)"
+      }
+    },
+    {
+      "id": "g6",
+      "question": "This is the ________ book I have ever read.",
+      "options": [
+        "A. interesting",
+        "B. more interesting",
+        "C. most interesting",
+        "D. much interesting"
+      ],
+      "correct": "C",
+      "explanation": {
+        "translation": "這是我讀過最有趣的書。",
+        "vocabulary": [
+          {
+            "word": "interesting",
+            "pos": "adj.",
+            "meaning": "有趣的",
+            "example": "An interesting book."
+          }
+        ],
+        "grammar": "配合 I have ever read 必須使用最高級。",
+        "phrase": "None"
+      }
+    },
+    {
+      "id": "g7",
+      "question": "There ________ a lot of people at the concert last night.",
+      "options": [
+        "A. is",
+        "B. are",
+        "C. was",
+        "D. were"
+      ],
+      "correct": "D",
+      "explanation": {
+        "translation": "昨晚演唱會很多人。",
+        "vocabulary": [
+          {
+            "word": "concert",
+            "pos": "n.",
+            "meaning": "演唱會",
+            "example": "Go to a concert."
+          }
+        ],
+        "grammar": "過去式且主詞為複數，be動詞用 were。",
+        "phrase": "a lot of (許多的)"
+      }
+    },
+    {
+      "id": "g8",
+      "question": "She likes playing the piano, ________ she?",
+      "options": [
+        "A. does",
+        "B. doesn't",
+        "C. is",
+        "D. isn't"
+      ],
+      "correct": "B",
+      "explanation": {
+        "translation": "她喜歡彈鋼琴，不是嗎？",
+        "vocabulary": [
+          {
+            "word": "piano",
+            "pos": "n.",
+            "meaning": "鋼琴",
+            "example": "Play the piano."
+          }
+        ],
+        "grammar": "附加問句前肯後否，likes 為一般動詞，用 doesn't。",
+        "phrase": "play the piano (彈鋼琴)"
+      }
+    },
+    {
+      "id": "g9",
+      "question": "I enjoy ________ to music in my free time.",
+      "options": [
+        "A. listen",
+        "B. listening",
+        "C. to listen",
+        "D. listened"
+      ],
+      "correct": "B",
+      "explanation": {
+        "translation": "我享受空閒時聽音樂。",
+        "vocabulary": [
+          {
+            "word": "enjoy",
+            "pos": "v.",
+            "meaning": "享受",
+            "example": "Enjoy reading."
+          }
+        ],
+        "grammar": "enjoy 後接動名詞 V-ing 作受詞。",
+        "phrase": "listen to (聽)"
+      }
+    },
+    {
+      "id": "g10",
+      "question": "Have you ________ finished your homework?",
+      "options": [
+        "A. ever",
+        "B. never",
+        "C. already",
+        "D. yet"
+      ],
+      "correct": "C",
+      "explanation": {
+        "translation": "你已經完成作業了嗎？",
+        "vocabulary": [
+          {
+            "word": "homework",
+            "pos": "n.",
+            "meaning": "作業",
+            "example": "Do homework."
+          }
+        ],
+        "grammar": "完成式中 already 通常放助動詞與過去分詞之間。",
+        "phrase": "None"
+      }
+    },
+    {
+      "id": "g11",
+      "question": "________ you like to drink some tea?",
+      "options": [
+        "A. Do",
+        "B. Are",
+        "C. Would",
+        "D. Will"
+      ],
+      "correct": "C",
+      "explanation": {
+        "translation": "你想要喝些茶嗎？",
+        "vocabulary": [
+          {
+            "word": "drink",
+            "pos": "v.",
+            "meaning": "喝",
+            "example": "Drink some water."
+          }
+        ],
+        "grammar": "Would you like... 是一種客氣的提議或邀請用法。",
+        "phrase": "Would you like to (你想要...嗎)"
+      }
+    },
+    {
+      "id": "g12",
+      "question": "He has lived in Taipei ________ ten years.",
+      "options": [
+        "A. since",
+        "B. for",
+        "C. in",
+        "D. from"
+      ],
+      "correct": "B",
+      "explanation": {
+        "translation": "他已經住在台北十年了。",
+        "vocabulary": [
+          {
+            "word": "live",
+            "pos": "v.",
+            "meaning": "居住",
+            "example": "Live in a house."
+          }
+        ],
+        "grammar": "現在完成式中，for 後面接「一段時間」。",
+        "phrase": "None"
+      }
+    },
+    {
+      "id": "g13",
+      "question": "I don't have ________ money in my pocket.",
+      "options": [
+        "A. some",
+        "B. any",
+        "C. many",
+        "D. few"
+      ],
+      "correct": "B",
+      "explanation": {
+        "translation": "我口袋裡沒有任何錢。",
+        "vocabulary": [
+          {
+            "word": "pocket",
+            "pos": "n.",
+            "meaning": "口袋",
+            "example": "Put it in your pocket."
+          }
+        ],
+        "grammar": "在否定句或疑問句中，通常使用 any 來代替 some。",
+        "phrase": "None"
+      }
+    },
+    {
+      "id": "g14",
+      "question": "The boy ________ is wearing a red hat is my cousin.",
+      "options": [
+        "A. who",
+        "B. which",
+        "C. whose",
+        "D. whom"
+      ],
+      "correct": "A",
+      "explanation": {
+        "translation": "戴著紅帽子的那個男孩是我表哥。",
+        "vocabulary": [
+          {
+            "word": "cousin",
+            "pos": "n.",
+            "meaning": "表/堂兄弟姊妹",
+            "example": "She is my cousin."
+          }
+        ],
+        "grammar": "先行詞 The boy 是「人」，且在子句中作主詞，關係代名詞用 who。",
+        "phrase": "None"
+      }
+    },
+    {
+      "id": "g15",
+      "question": "My mother made me ________ the room.",
+      "options": [
+        "A. clean",
+        "B. cleaning",
+        "C. to clean",
+        "D. cleaned"
+      ],
+      "correct": "A",
+      "explanation": {
+        "translation": "我媽媽叫我打掃房間。",
+        "vocabulary": [
+          {
+            "word": "make",
+            "pos": "v.",
+            "meaning": "使；迫使",
+            "example": "Make him cry."
+          }
+        ],
+        "grammar": "make 作為使役動詞，後面接原形動詞。",
+        "phrase": "make someone do something (使某人做某事)"
+      }
+    },
+    {
+      "id": "g16",
+      "question": "English is ________ by many people all over the world.",
+      "options": [
+        "A. speak",
+        "B. spoke",
+        "C. speaking",
+        "D. spoken"
+      ],
+      "correct": "D",
+      "explanation": {
+        "translation": "英文被世界上許多人使用。",
+        "vocabulary": [
+          {
+            "word": "speak",
+            "pos": "v.",
+            "meaning": "說(語言)",
+            "example": "Speak English."
+          }
+        ],
+        "grammar": "被動語態的結構為 be 動詞 + 過去分詞 (p.p.)。",
+        "phrase": "all over the world (全世界)"
+      }
+    },
+    {
+      "id": "g17",
+      "question": "We will go on a picnic ________ Sunday morning.",
+      "options": [
+        "A. in",
+        "B. on",
+        "C. at",
+        "D. to"
+      ],
+      "correct": "B",
+      "explanation": {
+        "translation": "我們星期天早上要去野餐。",
+        "vocabulary": [
+          {
+            "word": "picnic",
+            "pos": "n.",
+            "meaning": "野餐",
+            "example": "Go on a picnic."
+          }
+        ],
+        "grammar": "表示在特定的某一天 (或某天的早上/下午/晚上)，介系詞用 on。",
+        "phrase": "go on a picnic (去野餐)"
+      }
+    },
+    {
+      "id": "g18",
+      "question": "I think playing baseball is ________ than watching it.",
+      "options": [
+        "A. fun",
+        "B. more fun",
+        "C. most fun",
+        "D. funniest"
+      ],
+      "correct": "B",
+      "explanation": {
+        "translation": "我認為打棒球比看棒球更有趣。",
+        "vocabulary": [
+          {
+            "word": "baseball",
+            "pos": "n.",
+            "meaning": "棒球",
+            "example": "Play baseball."
+          }
+        ],
+        "grammar": "有 than 須用比較級，fun 的比較級是 more fun。",
+        "phrase": "None"
+      }
+    },
+    {
+      "id": "g19",
+      "question": "Please speak ________ so that everyone can hear you.",
+      "options": [
+        "A. loud",
+        "B. louder",
+        "C. loudly",
+        "D. loudest"
+      ],
+      "correct": "C",
+      "explanation": {
+        "translation": "請大聲點說話，這樣大家才能聽到。",
+        "vocabulary": [
+          {
+            "word": "hear",
+            "pos": "v.",
+            "meaning": "聽到",
+            "example": "I can hear you."
+          }
+        ],
+        "grammar": "修飾動詞 speak 需要使用副詞 loudly。",
+        "phrase": "so that (以便)"
+      }
+    },
+    {
+      "id": "g20",
+      "question": "________ beautiful flowers they are!",
+      "options": [
+        "A. How",
+        "B. What",
+        "C. Very",
+        "D. So"
+      ],
+      "correct": "B",
+      "explanation": {
+        "translation": "多麼美麗的花啊！",
+        "vocabulary": [
+          {
+            "word": "beautiful",
+            "pos": "adj.",
+            "meaning": "美麗的",
+            "example": "A beautiful girl."
+          }
+        ],
+        "grammar": "感嘆句句型：What + (a/an) + 形容詞 + 名詞 + (主詞 + 動詞)!",
+        "phrase": "None"
+      }
+    },
+    {
+      "id": "g21",
+      "question": "The historic temple ________ by hundreds of foreign visitors every day.",
+      "options": [
+        "A. visits",
+        "B. is visited",
+        "C. visited",
+        "D. was visiting"
+      ],
+      "correct": "B",
+      "explanation": {
+        "translation": "這座歷史悠久的寺廟每天都被數百名外國遊客參觀。",
+        "vocabulary": [
+          {
+            "word": "historic",
+            "pos": "adj.",
+            "meaning": "具歷史意義的",
+            "example": "Tainan has many historic buildings."
+          },
+          {
+            "word": "visitor",
+            "pos": "n.",
+            "meaning": "訪客；參觀者",
+            "example": "The museum welcomes visitors from 9 a.m. to 5 p.m."
+          }
+        ],
+        "grammar": "現在簡單式被動語態：主詞（寺廟）為被參觀的對象，搭配時間副詞 every day，故使用「is + 過去分詞 (is visited)」。",
+        "phrase": "None"
+      }
+    },
+    {
+      "id": "g22",
+      "question": "When Emily walked past the music room, she heard someone ________ the piano.",
+      "options": [
+        "A. played",
+        "B. to play",
+        "C. playing",
+        "D. was playing"
+      ],
+      "correct": "C",
+      "explanation": {
+        "translation": "當艾蜜莉走過音樂教室時，她聽見有人正在彈鋼琴。",
+        "vocabulary": [
+          {
+            "word": "past",
+            "pos": "prep.",
+            "meaning": "經過",
+            "example": "He walked past me without saying hello."
+          },
+          {
+            "word": "hear",
+            "pos": "v.",
+            "meaning": "聽見",
+            "example": "Did you hear that strange noise?"
+          }
+        ],
+        "grammar": "感官動詞用法：hear + 受詞 + 原形動詞 / 現在分詞 (V-ing)。此處強調當下正在進行的動作，故選 playing。",
+        "phrase": "walk past (走過)"
+      }
+    },
+    {
+      "id": "g23",
+      "question": "Mr. and Mrs. Smith ________ in Tainan since they moved from Taipei five years ago.",
+      "options": [
+        "A. have lived",
+        "B. live",
+        "C. will live",
+        "D. lived"
+      ],
+      "correct": "A",
+      "explanation": {
+        "translation": "史密斯夫婦自從五年前從台北搬來後，就一直住在台南。",
+        "vocabulary": [
+          {
+            "word": "since",
+            "pos": "conj.",
+            "meaning": "自從",
+            "example": "I haven't seen Mark since last Monday."
+          },
+          {
+            "word": "move",
+            "pos": "v.",
+            "meaning": "搬遷；移動",
+            "example": "They decided to move to a new apartment."
+          }
+        ],
+        "grammar": "現在完成式：主要子句使用 have/has + p.p.，搭配「since + 過去式子句/過去時間點」，表示動作從過去持續到現在。",
+        "phrase": "None"
+      }
+    },
+    {
+      "id": "g24",
+      "question": "The boy ________ was riding the yellow bicycle is my younger brother, Tim.",
+      "options": [
+        "A. which",
+        "B. who",
+        "C. whose",
+        "D. whom"
+      ],
+      "correct": "B",
+      "explanation": {
+        "translation": "那個正騎著黃色腳踏車的男孩是我的弟弟提姆。",
+        "vocabulary": [
+          {
+            "word": "ride",
+            "pos": "v.",
+            "meaning": "騎乘",
+            "example": "She rides her bike to school every day."
+          },
+          {
+            "word": "bicycle",
+            "pos": "n.",
+            "meaning": "腳踏車",
+            "example": "He bought a new bicycle last week."
+          }
+        ],
+        "grammar": "關係代名詞主格：先行詞為人（The boy），在關係子句中作主詞，後面接動詞 was riding，故使用 who。",
+        "phrase": "None"
+      }
+    },
+    {
+      "id": "g25",
+      "question": "Your father doesn't like spicy food, ________?",
+      "options": [
+        "A. does he",
+        "B. doesn't he",
+        "C. is he",
+        "D. isn't he"
+      ],
+      "correct": "A",
+      "explanation": {
+        "translation": "你爸爸不喜歡辛辣食物，對吧？",
+        "vocabulary": [
+          {
+            "word": "spicy",
+            "pos": "adj.",
+            "meaning": "辛辣的",
+            "example": "This Thai soup is very spicy."
+          }
+        ],
+        "grammar": "附加問句規則：前半句為否定句（doesn't like），附加問句須用肯定形（does he）；主詞 your father 為男性單數，代名詞用 he。",
+        "phrase": "None"
+      }
+    }
   ],
   "reading": [
     {
-      "articleId": "a1", "articleText": "Dear Peter,\n\nHow are you? I am having a great time in London. The weather is a bit cold, but the museums are amazing. Yesterday, I visited the British Museum. It is very huge and has lots of interesting things from all over the world. Tomorrow, I am going to buy some souvenirs for you and my family.\n\nSee you next week,\nMary",
+      "articleId": "a1",
+      "articleText": "Dear Peter,\n\nHow are you? I am having a great time in London. The weather is a bit cold, but the museums are amazing. Yesterday, I visited the British Museum. It is very huge and has lots of interesting things from all over the world. Tomorrow, I am going to buy some souvenirs for you and my family.\n\nSee you next week,\nMary",
       "questions": [
-        { "id": "r1", "question": "Where is Mary now?", "options": ["A. In New York", "B. In London", "C. In Paris", "D. In Tokyo"], "correct": "B", "explanation": { "translation": "瑪麗現在在哪裡？", "vocabulary": [{ "word": "museum", "pos": "n.", "meaning": "博物館", "example": "Visit a museum." }], "grammar": "從第一段 'I am having a great time in London.' 找出答案。", "phrase": "have a great time" } },
-        { "id": "r2", "question": "What is Mary going to do tomorrow?", "options": ["A. Visit a museum", "B. Go back home", "C. Buy souvenirs", "D. Write a letter"], "correct": "C", "explanation": { "translation": "瑪麗明天打算做什麼？", "vocabulary": [{ "word": "souvenir", "pos": "n.", "meaning": "紀念品", "example": "Buy souvenirs." }], "grammar": "be going to + 原形動詞表計畫。", "phrase": "all over the world" } },
-        { "id": "r3", "question": "How is the weather in London?", "options": ["A. Very hot", "B. A bit cold", "C. Rainy", "D. Snowy"], "correct": "B", "explanation": { "translation": "倫敦天氣如何？", "vocabulary": [{ "word": "weather", "pos": "n.", "meaning": "天氣", "example": "Good weather." }], "grammar": "文章提到 'The weather is a bit cold...'", "phrase": "a bit" } },
-        { "id": "r4", "question": "When did Mary visit the British Museum?", "options": ["A. Today", "B. Tomorrow", "C. Yesterday", "D. Next week"], "correct": "C", "explanation": { "translation": "瑪麗何時參觀大英博物館？", "vocabulary": [{ "word": "yesterday", "pos": "adv.", "meaning": "昨天", "example": "It rained yesterday." }], "grammar": "文章提及 Yesterday...", "phrase": "None" } },
-        { "id": "r5", "question": "When will Mary and Peter meet?", "options": ["A. Today", "B. Tomorrow", "C. Next week", "D. Next year"], "correct": "C", "explanation": { "translation": "兩人何時見面？", "vocabulary": [{ "word": "next", "pos": "adj.", "meaning": "下一個的", "example": "Next time." }], "grammar": "信末寫道 See you next week。", "phrase": "see you" } }
+        {
+          "id": "r1",
+          "question": "Where is Mary now?",
+          "options": [
+            "A. In New York",
+            "B. In London",
+            "C. In Paris",
+            "D. In Tokyo"
+          ],
+          "correct": "B",
+          "explanation": {
+            "translation": "瑪麗現在在哪裡？",
+            "vocabulary": [
+              {
+                "word": "museum",
+                "pos": "n.",
+                "meaning": "博物館",
+                "example": "Visit a museum."
+              }
+            ],
+            "grammar": "從第一段 'I am having a great time in London.' 找出答案。",
+            "phrase": "have a great time"
+          }
+        },
+        {
+          "id": "r2",
+          "question": "What is Mary going to do tomorrow?",
+          "options": [
+            "A. Visit a museum",
+            "B. Go back home",
+            "C. Buy souvenirs",
+            "D. Write a letter"
+          ],
+          "correct": "C",
+          "explanation": {
+            "translation": "瑪麗明天打算做什麼？",
+            "vocabulary": [
+              {
+                "word": "souvenir",
+                "pos": "n.",
+                "meaning": "紀念品",
+                "example": "Buy souvenirs."
+              }
+            ],
+            "grammar": "be going to + 原形動詞表計畫。",
+            "phrase": "all over the world"
+          }
+        },
+        {
+          "id": "r3",
+          "question": "How is the weather in London?",
+          "options": [
+            "A. Very hot",
+            "B. A bit cold",
+            "C. Rainy",
+            "D. Snowy"
+          ],
+          "correct": "B",
+          "explanation": {
+            "translation": "倫敦天氣如何？",
+            "vocabulary": [
+              {
+                "word": "weather",
+                "pos": "n.",
+                "meaning": "天氣",
+                "example": "Good weather."
+              }
+            ],
+            "grammar": "文章提到 'The weather is a bit cold...'",
+            "phrase": "a bit"
+          }
+        },
+        {
+          "id": "r4",
+          "question": "When did Mary visit the British Museum?",
+          "options": [
+            "A. Today",
+            "B. Tomorrow",
+            "C. Yesterday",
+            "D. Next week"
+          ],
+          "correct": "C",
+          "explanation": {
+            "translation": "瑪麗何時參觀大英博物館？",
+            "vocabulary": [
+              {
+                "word": "yesterday",
+                "pos": "adv.",
+                "meaning": "昨天",
+                "example": "It rained yesterday."
+              }
+            ],
+            "grammar": "文章提及 Yesterday...",
+            "phrase": "None"
+          }
+        },
+        {
+          "id": "r5",
+          "question": "When will Mary and Peter meet?",
+          "options": [
+            "A. Today",
+            "B. Tomorrow",
+            "C. Next week",
+            "D. Next year"
+          ],
+          "correct": "C",
+          "explanation": {
+            "translation": "兩人何時見面？",
+            "vocabulary": [
+              {
+                "word": "next",
+                "pos": "adj.",
+                "meaning": "下一個的",
+                "example": "Next time."
+              }
+            ],
+            "grammar": "信末寫道 See you next week。",
+            "phrase": "see you"
+          }
+        }
       ]
     },
     {
-      "articleId": "a2", "articleText": "Elephants are the largest land animals in the world. They have big ears, long trunks, and thick legs. Elephants use their trunks to breathe, drink water, and pick up food. They live in groups called herds, which are led by the oldest female elephant. Sadly, elephants are in danger because people hunt them for their ivory tusks.",
+      "articleId": "a2",
+      "articleText": "Elephants are the largest land animals in the world. They have big ears, long trunks, and thick legs. Elephants use their trunks to breathe, drink water, and pick up food. They live in groups called herds, which are led by the oldest female elephant. Sadly, elephants are in danger because people hunt them for their ivory tusks.",
       "questions": [
-        { "id": "r6", "question": "What is this article mainly about?", "options": ["A. How to hunt", "B. Facts about elephants", "C. Why elephants like water", "D. Where they live"], "correct": "B", "explanation": { "translation": "本文主旨為何？", "vocabulary": [{ "word": "fact", "pos": "n.", "meaning": "事實", "example": "Tell the facts." }], "grammar": "主旨題，文章介紹大象習性。", "phrase": "mainly about" } },
-        { "id": "r7", "question": "What do elephants use to drink water?", "options": ["A. Their ears", "B. Their legs", "C. Their trunks", "D. Their tusks"], "correct": "C", "explanation": { "translation": "大象用什麼喝水？", "vocabulary": [{ "word": "trunk", "pos": "n.", "meaning": "象鼻", "example": "An elephant's trunk." }], "grammar": "文章提及 use their trunks to drink water。", "phrase": "None" } },
-        { "id": "r8", "question": "Who leads an elephant herd?", "options": ["A. Strongest male", "B. Oldest female", "C. Youngest baby", "D. Fastest runner"], "correct": "B", "explanation": { "translation": "誰帶領象群？", "vocabulary": [{ "word": "female", "pos": "n.", "meaning": "雌性", "example": "A female dog." }], "grammar": "文章提及 led by the oldest female。", "phrase": "None" } },
-        { "id": "r9", "question": "Which is NOT true about elephants?", "options": ["A. They are large.", "B. They live in herds.", "C. They live alone.", "D. They have big ears."], "correct": "C", "explanation": { "translation": "何者不正確？", "vocabulary": [{ "word": "alone", "pos": "adv.", "meaning": "單獨", "example": "Live alone." }], "grammar": "大象群居 (in groups)，非獨居。", "phrase": "None" } },
-        { "id": "r10", "question": "Why are elephants in danger?", "options": ["A. Eat too much", "B. Weather is hot", "C. People hunt them", "D. Fight with lions"], "correct": "C", "explanation": { "translation": "大象為何危險？", "vocabulary": [{ "word": "hunt", "pos": "v.", "meaning": "打獵", "example": "Hunt animals." }], "grammar": "文章末提及 because people hunt them。", "phrase": "in danger" } }
+        {
+          "id": "r6",
+          "question": "What is this article mainly about?",
+          "options": [
+            "A. How to hunt",
+            "B. Facts about elephants",
+            "C. Why elephants like water",
+            "D. Where they live"
+          ],
+          "correct": "B",
+          "explanation": {
+            "translation": "本文主旨為何？",
+            "vocabulary": [
+              {
+                "word": "fact",
+                "pos": "n.",
+                "meaning": "事實",
+                "example": "Tell the facts."
+              }
+            ],
+            "grammar": "主旨題，文章介紹大象習性。",
+            "phrase": "mainly about"
+          }
+        },
+        {
+          "id": "r7",
+          "question": "What do elephants use to drink water?",
+          "options": [
+            "A. Their ears",
+            "B. Their legs",
+            "C. Their trunks",
+            "D. Their tusks"
+          ],
+          "correct": "C",
+          "explanation": {
+            "translation": "大象用什麼喝水？",
+            "vocabulary": [
+              {
+                "word": "trunk",
+                "pos": "n.",
+                "meaning": "象鼻",
+                "example": "An elephant's trunk."
+              }
+            ],
+            "grammar": "文章提及 use their trunks to drink water。",
+            "phrase": "None"
+          }
+        },
+        {
+          "id": "r8",
+          "question": "Who leads an elephant herd?",
+          "options": [
+            "A. Strongest male",
+            "B. Oldest female",
+            "C. Youngest baby",
+            "D. Fastest runner"
+          ],
+          "correct": "B",
+          "explanation": {
+            "translation": "誰帶領象群？",
+            "vocabulary": [
+              {
+                "word": "female",
+                "pos": "n.",
+                "meaning": "雌性",
+                "example": "A female dog."
+              }
+            ],
+            "grammar": "文章提及 led by the oldest female。",
+            "phrase": "None"
+          }
+        },
+        {
+          "id": "r9",
+          "question": "Which is NOT true about elephants?",
+          "options": [
+            "A. They are large.",
+            "B. They live in herds.",
+            "C. They live alone.",
+            "D. They have big ears."
+          ],
+          "correct": "C",
+          "explanation": {
+            "translation": "何者不正確？",
+            "vocabulary": [
+              {
+                "word": "alone",
+                "pos": "adv.",
+                "meaning": "單獨",
+                "example": "Live alone."
+              }
+            ],
+            "grammar": "大象群居 (in groups)，非獨居。",
+            "phrase": "None"
+          }
+        },
+        {
+          "id": "r10",
+          "question": "Why are elephants in danger?",
+          "options": [
+            "A. Eat too much",
+            "B. Weather is hot",
+            "C. People hunt them",
+            "D. Fight with lions"
+          ],
+          "correct": "C",
+          "explanation": {
+            "translation": "大象為何危險？",
+            "vocabulary": [
+              {
+                "word": "hunt",
+                "pos": "v.",
+                "meaning": "打獵",
+                "example": "Hunt animals."
+              }
+            ],
+            "grammar": "文章末提及 because people hunt them。",
+            "phrase": "in danger"
+          }
+        }
       ]
     },
     {
-      "articleId": "a3", "articleText": "Recycling is very important for our earth. When we throw things away, they go to a landfill. Landfills take up a lot of space and can make the air and water dirty. By recycling paper, plastic, and glass, we can save trees, energy, and keep our environment clean. Everyone can help by putting recyclable items in the correct bins.",
+      "articleId": "a3",
+      "articleText": "Recycling is very important for our earth. When we throw things away, they go to a landfill. Landfills take up a lot of space and can make the air and water dirty. By recycling paper, plastic, and glass, we can save trees, energy, and keep our environment clean. Everyone can help by putting recyclable items in the correct bins.",
       "questions": [
-        { "id": "r11", "question": "What happens when we throw things away?", "options": ["A. They disappear.", "B. They go to a landfill.", "C. They become new things.", "D. They clean the air."], "correct": "B", "explanation": { "translation": "當我們丟棄東西時會發生什麼事？", "vocabulary": [{ "word": "landfill", "pos": "n.", "meaning": "垃圾掩埋場", "example": "The landfill is full." }], "grammar": "文章提到 'When we throw things away, they go to a landfill.'", "phrase": "throw away (丟棄)" } },
-        { "id": "r12", "question": "Why are landfills bad?", "options": ["A. They are too small.", "B. They are too expensive.", "C. They take up space and pollute.", "D. They are noisy."], "correct": "C", "explanation": { "translation": "為什麼垃圾掩埋場不好？", "vocabulary": [{ "word": "pollute", "pos": "v.", "meaning": "汙染", "example": "Cars pollute the air." }], "grammar": "文章提到 'Landfills take up a lot of space and can make the air and water dirty.'", "phrase": "take up (佔用)" } },
-        { "id": "r13", "question": "Which of the following can be recycled?", "options": ["A. Food", "B. Paper", "C. Clothes", "D. Animals"], "correct": "B", "explanation": { "translation": "下列哪項可以回收？", "vocabulary": [{ "word": "recycle", "pos": "v.", "meaning": "回收", "example": "Please recycle this bottle." }], "grammar": "文章提到 'By recycling paper, plastic, and glass...'", "phrase": "of the following (下列的...)" } },
-        { "id": "r14", "question": "What is a benefit of recycling?", "options": ["A. Saving trees", "B. Making more plastic", "C. Creating more landfills", "D. Wasting energy"], "correct": "A", "explanation": { "translation": "回收的一個好處是什麼？", "vocabulary": [{ "word": "benefit", "pos": "n.", "meaning": "好處；益處", "example": "Exercise has many benefits." }], "grammar": "文章提到 '...we can save trees, energy...'", "phrase": "None" } },
-        { "id": "r15", "question": "How can everyone help?", "options": ["A. By buying more things", "B. By throwing everything in one bin", "C. By putting items in correct bins", "D. By burning trash"], "correct": "C", "explanation": { "translation": "每個人可以如何幫忙？", "vocabulary": [{ "word": "bin", "pos": "n.", "meaning": "垃圾桶；回收箱", "example": "Put it in the bin." }], "grammar": "文章最後一句提到 '...by putting recyclable items in the correct bins.'", "phrase": "None" } }
+        {
+          "id": "r11",
+          "question": "What happens when we throw things away?",
+          "options": [
+            "A. They disappear.",
+            "B. They go to a landfill.",
+            "C. They become new things.",
+            "D. They clean the air."
+          ],
+          "correct": "B",
+          "explanation": {
+            "translation": "當我們丟棄東西時會發生什麼事？",
+            "vocabulary": [
+              {
+                "word": "landfill",
+                "pos": "n.",
+                "meaning": "垃圾掩埋場",
+                "example": "The landfill is full."
+              }
+            ],
+            "grammar": "文章提到 'When we throw things away, they go to a landfill.'",
+            "phrase": "throw away (丟棄)"
+          }
+        },
+        {
+          "id": "r12",
+          "question": "Why are landfills bad?",
+          "options": [
+            "A. They are too small.",
+            "B. They are too expensive.",
+            "C. They take up space and pollute.",
+            "D. They are noisy."
+          ],
+          "correct": "C",
+          "explanation": {
+            "translation": "為什麼垃圾掩埋場不好？",
+            "vocabulary": [
+              {
+                "word": "pollute",
+                "pos": "v.",
+                "meaning": "汙染",
+                "example": "Cars pollute the air."
+              }
+            ],
+            "grammar": "文章提到 'Landfills take up a lot of space and can make the air and water dirty.'",
+            "phrase": "take up (佔用)"
+          }
+        },
+        {
+          "id": "r13",
+          "question": "Which of the following can be recycled?",
+          "options": [
+            "A. Food",
+            "B. Paper",
+            "C. Clothes",
+            "D. Animals"
+          ],
+          "correct": "B",
+          "explanation": {
+            "translation": "下列哪項可以回收？",
+            "vocabulary": [
+              {
+                "word": "recycle",
+                "pos": "v.",
+                "meaning": "回收",
+                "example": "Please recycle this bottle."
+              }
+            ],
+            "grammar": "文章提到 'By recycling paper, plastic, and glass...'",
+            "phrase": "of the following (下列的...)"
+          }
+        },
+        {
+          "id": "r14",
+          "question": "What is a benefit of recycling?",
+          "options": [
+            "A. Saving trees",
+            "B. Making more plastic",
+            "C. Creating more landfills",
+            "D. Wasting energy"
+          ],
+          "correct": "A",
+          "explanation": {
+            "translation": "回收的一個好處是什麼？",
+            "vocabulary": [
+              {
+                "word": "benefit",
+                "pos": "n.",
+                "meaning": "好處；益處",
+                "example": "Exercise has many benefits."
+              }
+            ],
+            "grammar": "文章提到 '...we can save trees, energy...'",
+            "phrase": "None"
+          }
+        },
+        {
+          "id": "r15",
+          "question": "How can everyone help?",
+          "options": [
+            "A. By buying more things",
+            "B. By throwing everything in one bin",
+            "C. By putting items in correct bins",
+            "D. By burning trash"
+          ],
+          "correct": "C",
+          "explanation": {
+            "translation": "每個人可以如何幫忙？",
+            "vocabulary": [
+              {
+                "word": "bin",
+                "pos": "n.",
+                "meaning": "垃圾桶；回收箱",
+                "example": "Put it in the bin."
+              }
+            ],
+            "grammar": "文章最後一句提到 '...by putting recyclable items in the correct bins.'",
+            "phrase": "None"
+          }
+        }
       ]
     },
     {
-      "articleId": "a4", "articleText": "David loves playing basketball. He practices every afternoon with his friends at the park. He wants to be a professional basketball player when he grows up. He watches basketball games on TV to learn new skills from his favorite players. His parents bought him a new pair of basketball shoes for his birthday, and he was very excited.",
+      "articleId": "a4",
+      "articleText": "David loves playing basketball. He practices every afternoon with his friends at the park. He wants to be a professional basketball player when he grows up. He watches basketball games on TV to learn new skills from his favorite players. His parents bought him a new pair of basketball shoes for his birthday, and he was very excited.",
       "questions": [
-        { "id": "r16", "question": "When does David practice basketball?", "options": ["A. Every morning", "B. Every afternoon", "C. Every night", "D. Only on weekends"], "correct": "B", "explanation": { "translation": "大衛什麼時候練習打籃球？", "vocabulary": [{ "word": "practice", "pos": "v.", "meaning": "練習", "example": "Practice makes perfect." }], "grammar": "文章提到 'He practices every afternoon...'", "phrase": "None" } },
-        { "id": "r17", "question": "Where does he practice?", "options": ["A. At school", "B. At home", "C. At the park", "D. At the gym"], "correct": "C", "explanation": { "translation": "他在哪裡練習？", "vocabulary": [{ "word": "park", "pos": "n.", "meaning": "公園", "example": "Let's go to the park." }], "grammar": "文章提到 '...with his friends at the park.'", "phrase": "None" } },
-        { "id": "r18", "question": "What does David want to be in the future?", "options": ["A. A doctor", "B. A teacher", "C. A basketball player", "D. A TV reporter"], "correct": "C", "explanation": { "translation": "大衛未來想成為什麼？", "vocabulary": [{ "word": "professional", "pos": "adj.", "meaning": "專業的", "example": "He is a professional player." }], "grammar": "文章提到 'He wants to be a professional basketball player...'", "phrase": "grow up (長大)" } },
-        { "id": "r19", "question": "Why does he watch basketball games on TV?", "options": ["A. Because it's funny.", "B. To learn new skills.", "C. Because his parents force him.", "D. Because he has nothing to do."], "correct": "B", "explanation": { "translation": "為什麼他在電視上看籃球比賽？", "vocabulary": [{ "word": "skill", "pos": "n.", "meaning": "技巧", "example": "He has good skills." }], "grammar": "文章提到 '...to learn new skills from his favorite players.'", "phrase": "None" } },
-        { "id": "r20", "question": "What did his parents buy for his birthday?", "options": ["A. A basketball", "B. A TV", "C. Basketball shoes", "D. A new uniform"], "correct": "C", "explanation": { "translation": "他的父母為他的生日買了什麼？", "vocabulary": [{ "word": "excited", "pos": "adj.", "meaning": "感到興奮的", "example": "I am so excited." }], "grammar": "文章提到 'His parents bought him a new pair of basketball shoes...'", "phrase": "a pair of (一雙)" } }
+        {
+          "id": "r16",
+          "question": "When does David practice basketball?",
+          "options": [
+            "A. Every morning",
+            "B. Every afternoon",
+            "C. Every night",
+            "D. Only on weekends"
+          ],
+          "correct": "B",
+          "explanation": {
+            "translation": "大衛什麼時候練習打籃球？",
+            "vocabulary": [
+              {
+                "word": "practice",
+                "pos": "v.",
+                "meaning": "練習",
+                "example": "Practice makes perfect."
+              }
+            ],
+            "grammar": "文章提到 'He practices every afternoon...'",
+            "phrase": "None"
+          }
+        },
+        {
+          "id": "r17",
+          "question": "Where does he practice?",
+          "options": [
+            "A. At school",
+            "B. At home",
+            "C. At the park",
+            "D. At the gym"
+          ],
+          "correct": "C",
+          "explanation": {
+            "translation": "他在哪裡練習？",
+            "vocabulary": [
+              {
+                "word": "park",
+                "pos": "n.",
+                "meaning": "公園",
+                "example": "Let's go to the park."
+              }
+            ],
+            "grammar": "文章提到 '...with his friends at the park.'",
+            "phrase": "None"
+          }
+        },
+        {
+          "id": "r18",
+          "question": "What does David want to be in the future?",
+          "options": [
+            "A. A doctor",
+            "B. A teacher",
+            "C. A basketball player",
+            "D. A TV reporter"
+          ],
+          "correct": "C",
+          "explanation": {
+            "translation": "大衛未來想成為什麼？",
+            "vocabulary": [
+              {
+                "word": "professional",
+                "pos": "adj.",
+                "meaning": "專業的",
+                "example": "He is a professional player."
+              }
+            ],
+            "grammar": "文章提到 'He wants to be a professional basketball player...'",
+            "phrase": "grow up (長大)"
+          }
+        },
+        {
+          "id": "r19",
+          "question": "Why does he watch basketball games on TV?",
+          "options": [
+            "A. Because it's funny.",
+            "B. To learn new skills.",
+            "C. Because his parents force him.",
+            "D. Because he has nothing to do."
+          ],
+          "correct": "B",
+          "explanation": {
+            "translation": "為什麼他在電視上看籃球比賽？",
+            "vocabulary": [
+              {
+                "word": "skill",
+                "pos": "n.",
+                "meaning": "技巧",
+                "example": "He has good skills."
+              }
+            ],
+            "grammar": "文章提到 '...to learn new skills from his favorite players.'",
+            "phrase": "None"
+          }
+        },
+        {
+          "id": "r20",
+          "question": "What did his parents buy for his birthday?",
+          "options": [
+            "A. A basketball",
+            "B. A TV",
+            "C. Basketball shoes",
+            "D. A new uniform"
+          ],
+          "correct": "C",
+          "explanation": {
+            "translation": "他的父母為他的生日買了什麼？",
+            "vocabulary": [
+              {
+                "word": "excited",
+                "pos": "adj.",
+                "meaning": "感到興奮的",
+                "example": "I am so excited."
+              }
+            ],
+            "grammar": "文章提到 'His parents bought him a new pair of basketball shoes...'",
+            "phrase": "a pair of (一雙)"
+          }
+        }
       ]
     },
     {
-      "articleId": "a5", "articleText": "Last Sunday, Tom and his family went to the zoo. The weather was sunny and warm. First, they saw the monkeys. The monkeys were eating bananas and jumping around. Then, they visited the lions. The lions were sleeping under a big tree. Tom's sister, Lily, liked the penguins the most because they looked cute when they walked. They had hot dogs for lunch and bought some postcards before going home. They had a wonderful day.",
+      "articleId": "a5",
+      "articleText": "Last Sunday, Tom and his family went to the zoo. The weather was sunny and warm. First, they saw the monkeys. The monkeys were eating bananas and jumping around. Then, they visited the lions. The lions were sleeping under a big tree. Tom's sister, Lily, liked the penguins the most because they looked cute when they walked. They had hot dogs for lunch and bought some postcards before going home. They had a wonderful day.",
       "questions": [
-        { "id": "r21", "question": "Where did Tom's family go last Sunday?", "options": ["A. To the park", "B. To the museum", "C. To the zoo", "D. To the beach"], "correct": "C", "explanation": { "translation": "湯姆一家人上週日去哪裡？", "vocabulary": [{ "word": "zoo", "pos": "n.", "meaning": "動物園", "example": "Let's go to the zoo." }], "grammar": "文章第一句提到 '...went to the zoo.'", "phrase": "None" } },
-        { "id": "r22", "question": "How was the weather?", "options": ["A. Rainy and cold", "B. Sunny and warm", "C. Cloudy and windy", "D. Snowy and cold"], "correct": "B", "explanation": { "translation": "天氣如何？", "vocabulary": [{ "word": "sunny", "pos": "adj.", "meaning": "晴朗的", "example": "It is a sunny day." }], "grammar": "文章提到 'The weather was sunny and warm.'", "phrase": "None" } },
-        { "id": "r23", "question": "What were the monkeys doing?", "options": ["A. Sleeping under a tree", "B. Walking around", "C. Eating bananas and jumping", "D. Eating hot dogs"], "correct": "C", "explanation": { "translation": "猴子們正在做什麼？", "vocabulary": [{ "word": "jump", "pos": "v.", "meaning": "跳躍", "example": "Jump up and down." }], "grammar": "文章提到 'The monkeys were eating bananas and jumping around.'", "phrase": "jump around (到處跳)" } },
-        { "id": "r24", "question": "What is Lily's favorite animal in the zoo?", "options": ["A. Lions", "B. Monkeys", "C. Elephants", "D. Penguins"], "correct": "D", "explanation": { "translation": "莉莉在動物園裡最喜歡什麼動物？", "vocabulary": [{ "word": "penguin", "pos": "n.", "meaning": "企鵝", "example": "Penguins live in the cold." }], "grammar": "文章提到 'Lily liked the penguins the most...'", "phrase": "like... the most (最喜歡...)" } },
-        { "id": "r25", "question": "What did they buy before going home?", "options": ["A. Hot dogs", "B. Bananas", "C. Postcards", "D. Toys"], "correct": "C", "explanation": { "translation": "他們回家前買了什麼？", "vocabulary": [{ "word": "postcard", "pos": "n.", "meaning": "明信片", "example": "Send a postcard." }], "grammar": "文章提到 '...and bought some postcards before going home.'", "phrase": "None" } }
+        {
+          "id": "r21",
+          "question": "Where did Tom's family go last Sunday?",
+          "options": [
+            "A. To the park",
+            "B. To the museum",
+            "C. To the zoo",
+            "D. To the beach"
+          ],
+          "correct": "C",
+          "explanation": {
+            "translation": "湯姆一家人上週日去哪裡？",
+            "vocabulary": [
+              {
+                "word": "zoo",
+                "pos": "n.",
+                "meaning": "動物園",
+                "example": "Let's go to the zoo."
+              }
+            ],
+            "grammar": "文章第一句提到 '...went to the zoo.'",
+            "phrase": "None"
+          }
+        },
+        {
+          "id": "r22",
+          "question": "How was the weather?",
+          "options": [
+            "A. Rainy and cold",
+            "B. Sunny and warm",
+            "C. Cloudy and windy",
+            "D. Snowy and cold"
+          ],
+          "correct": "B",
+          "explanation": {
+            "translation": "天氣如何？",
+            "vocabulary": [
+              {
+                "word": "sunny",
+                "pos": "adj.",
+                "meaning": "晴朗的",
+                "example": "It is a sunny day."
+              }
+            ],
+            "grammar": "文章提到 'The weather was sunny and warm.'",
+            "phrase": "None"
+          }
+        },
+        {
+          "id": "r23",
+          "question": "What were the monkeys doing?",
+          "options": [
+            "A. Sleeping under a tree",
+            "B. Walking around",
+            "C. Eating bananas and jumping",
+            "D. Eating hot dogs"
+          ],
+          "correct": "C",
+          "explanation": {
+            "translation": "猴子們正在做什麼？",
+            "vocabulary": [
+              {
+                "word": "jump",
+                "pos": "v.",
+                "meaning": "跳躍",
+                "example": "Jump up and down."
+              }
+            ],
+            "grammar": "文章提到 'The monkeys were eating bananas and jumping around.'",
+            "phrase": "jump around (到處跳)"
+          }
+        },
+        {
+          "id": "r24",
+          "question": "What is Lily's favorite animal in the zoo?",
+          "options": [
+            "A. Lions",
+            "B. Monkeys",
+            "C. Elephants",
+            "D. Penguins"
+          ],
+          "correct": "D",
+          "explanation": {
+            "translation": "莉莉在動物園裡最喜歡什麼動物？",
+            "vocabulary": [
+              {
+                "word": "penguin",
+                "pos": "n.",
+                "meaning": "企鵝",
+                "example": "Penguins live in the cold."
+              }
+            ],
+            "grammar": "文章提到 'Lily liked the penguins the most...'",
+            "phrase": "like... the most (最喜歡...)"
+          }
+        },
+        {
+          "id": "r25",
+          "question": "What did they buy before going home?",
+          "options": [
+            "A. Hot dogs",
+            "B. Bananas",
+            "C. Postcards",
+            "D. Toys"
+          ],
+          "correct": "C",
+          "explanation": {
+            "translation": "他們回家前買了什麼？",
+            "vocabulary": [
+              {
+                "word": "postcard",
+                "pos": "n.",
+                "meaning": "明信片",
+                "example": "Send a postcard."
+              }
+            ],
+            "grammar": "文章提到 '...and bought some postcards before going home.'",
+            "phrase": "None"
+          }
+        }
       ]
     },
     {
-      "articleId": "a6", "articleText": "Welcome to the Cooking Club! We meet every Wednesday afternoon from 4:00 to 5:30 in the school kitchen. You don't need to be a great cook to join us. Our teacher, Mr. White, will teach you how to make easy and delicious food like sandwiches, cookies, and fruit salads. Please bring your own apron. If you want to join, please write your name on the sign-up sheet outside Classroom 201 before this Friday.",
+      "articleId": "a6",
+      "articleText": "Welcome to the Cooking Club! We meet every Wednesday afternoon from 4:00 to 5:30 in the school kitchen. You don't need to be a great cook to join us. Our teacher, Mr. White, will teach you how to make easy and delicious food like sandwiches, cookies, and fruit salads. Please bring your own apron. If you want to join, please write your name on the sign-up sheet outside Classroom 201 before this Friday.",
       "questions": [
-        { "id": "r26", "question": "What time does the Cooking Club meet?", "options": ["A. 3:00 to 4:30", "B. 4:00 to 5:30", "C. 5:00 to 6:30", "D. 4:30 to 6:00"], "correct": "B", "explanation": { "translation": "烹飪社什麼時候聚會？", "vocabulary": [{ "word": "meet", "pos": "v.", "meaning": "聚會；見面", "example": "We meet on Mondays." }], "grammar": "文章提到 'We meet every Wednesday afternoon from 4:00 to 5:30...'", "phrase": "None" } },
-        { "id": "r27", "question": "Where do they meet?", "options": ["A. In Classroom 201", "B. In the library", "C. In the school kitchen", "D. In the gym"], "correct": "C", "explanation": { "translation": "他們在哪裡聚會？", "vocabulary": [{ "word": "kitchen", "pos": "n.", "meaning": "廚房", "example": "Cook in the kitchen." }], "grammar": "文章提到 '...in the school kitchen.'", "phrase": "None" } },
-        { "id": "r28", "question": "Who is the teacher of the club?", "options": ["A. Mr. Black", "B. Mr. White", "C. Miss Green", "D. Mrs. Brown"], "correct": "B", "explanation": { "translation": "社團的老師是誰？", "vocabulary": [{ "word": "teacher", "pos": "n.", "meaning": "老師", "example": "He is a good teacher." }], "grammar": "文章提到 'Our teacher, Mr. White...'", "phrase": "None" } },
-        { "id": "r29", "question": "What do students need to bring?", "options": ["A. Sandwiches", "B. Cookies", "C. An apron", "D. A sign-up sheet"], "correct": "C", "explanation": { "translation": "學生需要帶什麼？", "vocabulary": [{ "word": "apron", "pos": "n.", "meaning": "圍裙", "example": "Wear an apron to cook." }], "grammar": "文章提到 'Please bring your own apron.'", "phrase": "bring your own (自己帶...)" } },
-        { "id": "r30", "question": "What should you do if you want to join?", "options": ["A. Talk to Mr. White", "B. Go to the kitchen now", "C. Make a fruit salad", "D. Write your name on the sign-up sheet"], "correct": "D", "explanation": { "translation": "如果你想加入，你應該怎麼做？", "vocabulary": [{ "word": "join", "pos": "v.", "meaning": "加入", "example": "Join the club." }], "grammar": "文章提到 '...please write your name on the sign-up sheet...'", "phrase": "sign-up sheet (報名表)" } }
+        {
+          "id": "r26",
+          "question": "What time does the Cooking Club meet?",
+          "options": [
+            "A. 3:00 to 4:30",
+            "B. 4:00 to 5:30",
+            "C. 5:00 to 6:30",
+            "D. 4:30 to 6:00"
+          ],
+          "correct": "B",
+          "explanation": {
+            "translation": "烹飪社什麼時候聚會？",
+            "vocabulary": [
+              {
+                "word": "meet",
+                "pos": "v.",
+                "meaning": "聚會；見面",
+                "example": "We meet on Mondays."
+              }
+            ],
+            "grammar": "文章提到 'We meet every Wednesday afternoon from 4:00 to 5:30...'",
+            "phrase": "None"
+          }
+        },
+        {
+          "id": "r27",
+          "question": "Where do they meet?",
+          "options": [
+            "A. In Classroom 201",
+            "B. In the library",
+            "C. In the school kitchen",
+            "D. In the gym"
+          ],
+          "correct": "C",
+          "explanation": {
+            "translation": "他們在哪裡聚會？",
+            "vocabulary": [
+              {
+                "word": "kitchen",
+                "pos": "n.",
+                "meaning": "廚房",
+                "example": "Cook in the kitchen."
+              }
+            ],
+            "grammar": "文章提到 '...in the school kitchen.'",
+            "phrase": "None"
+          }
+        },
+        {
+          "id": "r28",
+          "question": "Who is the teacher of the club?",
+          "options": [
+            "A. Mr. Black",
+            "B. Mr. White",
+            "C. Miss Green",
+            "D. Mrs. Brown"
+          ],
+          "correct": "B",
+          "explanation": {
+            "translation": "社團的老師是誰？",
+            "vocabulary": [
+              {
+                "word": "teacher",
+                "pos": "n.",
+                "meaning": "老師",
+                "example": "He is a good teacher."
+              }
+            ],
+            "grammar": "文章提到 'Our teacher, Mr. White...'",
+            "phrase": "None"
+          }
+        },
+        {
+          "id": "r29",
+          "question": "What do students need to bring?",
+          "options": [
+            "A. Sandwiches",
+            "B. Cookies",
+            "C. An apron",
+            "D. A sign-up sheet"
+          ],
+          "correct": "C",
+          "explanation": {
+            "translation": "學生需要帶什麼？",
+            "vocabulary": [
+              {
+                "word": "apron",
+                "pos": "n.",
+                "meaning": "圍裙",
+                "example": "Wear an apron to cook."
+              }
+            ],
+            "grammar": "文章提到 'Please bring your own apron.'",
+            "phrase": "bring your own (自己帶...)"
+          }
+        },
+        {
+          "id": "r30",
+          "question": "What should you do if you want to join?",
+          "options": [
+            "A. Talk to Mr. White",
+            "B. Go to the kitchen now",
+            "C. Make a fruit salad",
+            "D. Write your name on the sign-up sheet"
+          ],
+          "correct": "D",
+          "explanation": {
+            "translation": "如果你想加入，你應該怎麼做？",
+            "vocabulary": [
+              {
+                "word": "join",
+                "pos": "v.",
+                "meaning": "加入",
+                "example": "Join the club."
+              }
+            ],
+            "grammar": "文章提到 '...please write your name on the sign-up sheet...'",
+            "phrase": "sign-up sheet (報名表)"
+          }
+        }
+      ]
+    },
+    {
+      "articleId": "a7",
+      "articleText": "In Taiwan, convenience stores can be found on almost every street corner. With more than 13,000 stores across the island, Taiwan has one of the highest densities of convenience stores in the world. People love them not only because they are open 24 hours a day, but also because they offer a wide range of useful services.\n\nBesides buying snacks, fresh fruit, and hot coffee, customers can pay their utility bills, pick up online shopping packages, and even buy train tickets at convenience stores. Many stores also have clean seating areas, free Wi-Fi, and clean restrooms, making them comfortable rest stops for both students and workers.\n\nIn recent years, convenience stores have also worked hard to be more environmentally friendly. They encourage people to bring their own reusable cups by giving small discounts, and they donate unsold fresh food to charities before it expires. For locals and foreign travelers alike, Taiwanese convenience stores are much more than just shops—they are an indispensable part of daily life.",
+      "questions": [
+        {
+          "id": "r31",
+          "question": "What is the main idea of this reading?",
+          "options": [
+            "A. Why Taiwanese street food is popular with foreigners.",
+            "B. How convenience stores play an important role in daily life in Taiwan.",
+            "C. The history of online shopping websites in Taiwan.",
+            "D. Tips on how to open a successful store in Taiwan."
+          ],
+          "correct": "B",
+          "explanation": {
+            "translation": "這篇短文的主旨是什麼？",
+            "vocabulary": [
+              {
+                "word": "density",
+                "pos": "n.",
+                "meaning": "密度",
+                "example": "The population density in big cities is usually high."
+              },
+              {
+                "word": "indispensable",
+                "pos": "adj.",
+                "meaning": "不可或缺的",
+                "example": "A smartphone has become an indispensable tool in modern life."
+              }
+            ],
+            "grammar": "主旨題：整篇文章圍繞著台灣便利商店的密度、提供的多樣服務及其在日常生活中的重要地位展開。",
+            "phrase": "play an important role (扮演重要角色)"
+          }
+        },
+        {
+          "id": "r32",
+          "question": "According to the second paragraph, what CANNOT be done at convenience stores in Taiwan?",
+          "options": [
+            "A. Paying water and electricity bills.",
+            "B. Collecting packages ordered on the Internet.",
+            "C. Repairing broken bicycles.",
+            "D. Buying train tickets."
+          ],
+          "correct": "C",
+          "explanation": {
+            "translation": "根據第二段，在台灣的便利商店不能做以下哪件事？",
+            "vocabulary": [
+              {
+                "word": "utility bill",
+                "pos": "n.",
+                "meaning": "水電費帳單",
+                "example": "Remember to pay the electricity bill before Friday."
+              },
+              {
+                "word": "repair",
+                "pos": "v.",
+                "meaning": "修理",
+                "example": "My uncle knows how to repair old clocks."
+              }
+            ],
+            "grammar": "細節排除題：文中第二段提及繳交水電費 (pay utility bills)、取網購包裹 (pick up online shopping packages) 及買火車票 (buy train tickets)，並未提及修理腳踏車 (repairing bicycles)。",
+            "phrase": "pick up (領取；接送)"
+          }
+        },
+        {
+          "id": "r33",
+          "question": "What does the word \"expires\" in the last paragraph most likely mean?",
+          "options": [
+            "A. Becomes colder.",
+            "B. Goes bad or cannot be eaten anymore.",
+            "C. Tastes sweeter.",
+            "D. Is sold at a higher price."
+          ],
+          "correct": "B",
+          "explanation": {
+            "translation": "最後一段中的 \"expires\" 最可能代表什麼意思？",
+            "vocabulary": [
+              {
+                "word": "expire",
+                "pos": "v.",
+                "meaning": "過期；失效",
+                "example": "Check the date on the milk carton before it expires."
+              },
+              {
+                "word": "charity",
+                "pos": "n.",
+                "meaning": "慈善機構",
+                "example": "She regularly donates money to charity."
+              }
+            ],
+            "grammar": "字義推論題：根據前後文「donate unsold fresh food to charities before it expires」，未售出的鮮食在「過期/變質不能吃」之前捐贈給慈善單位，故選 B。",
+            "phrase": "go bad (食物變質腐壞)"
+          }
+        },
+        {
+          "id": "r34",
+          "question": "How do convenience stores encourage environmental protection?",
+          "options": [
+            "A. By giving discounts to customers who bring reusable cups.",
+            "B. By closing stores late at night to save electricity.",
+            "C. By stopping the sale of all plastic items completely.",
+            "D. By planting trees outside every store."
+          ],
+          "correct": "A",
+          "explanation": {
+            "translation": "便利商店如何鼓勵環保？",
+            "vocabulary": [
+              {
+                "word": "encourage",
+                "pos": "v.",
+                "meaning": "鼓勵",
+                "example": "Teachers encourage students to read more books."
+              },
+              {
+                "word": "reusable",
+                "pos": "adj.",
+                "meaning": "可重複使用的",
+                "example": "Using reusable bags helps protect the planet."
+              }
+            ],
+            "grammar": "細節理解題：根據第三段「They encourage people to bring their own reusable cups by giving small discounts」，可知答案為 A。",
+            "phrase": "environmental protection (環境保護)"
+          }
+        },
+        {
+          "id": "r35",
+          "question": "Which of the following is TRUE about convenience stores in Taiwan?",
+          "options": [
+            "A. There are fewer than 5,000 stores across Taiwan.",
+            "B. Most stores are closed during weekends.",
+            "C. Customers cannot sit or rest inside the stores.",
+            "D. They offer 24-hour service to the public."
+          ],
+          "correct": "D",
+          "explanation": {
+            "translation": "關於台灣的便利商店，下列何者正確？",
+            "vocabulary": [
+              {
+                "word": "convenience",
+                "pos": "n.",
+                "meaning": "便利",
+                "example": "The hotel provides many modern conveniences."
+              },
+              {
+                "word": "public",
+                "pos": "n.",
+                "meaning": "大眾；公眾",
+                "example": "The new park is open to the public."
+              }
+            ],
+            "grammar": "判斷正誤題：第一段提到「they are open 24 hours a day」，與選項 D（提供大眾 24 小時服務）相符。A 錯在店數超過 13,000 家；B 錯在全天候營業未休週末；C 錯在許多店家設有座位區。",
+            "phrase": "not only ... but also ... (不僅……而且……)"
+          }
+        }
       ]
     }
   ]
