@@ -1259,6 +1259,306 @@
         "grammar": "形容詞修飾名詞：successful businesswoman (成功的女企業家)。",
         "phrase": "None"
       }
+    },
+    {
+      "id": "v51",
+      "question": "It is raining heavily outside. Don't forget to take an ________ with you when you leave.",
+      "options": [
+        "A. umbrella",
+        "B. eraser",
+        "C. address",
+        "D. airplane"
+      ],
+      "correct": "A",
+      "explanation": {
+        "translation": "外面正下著大雨。你離開時別忘了帶一把傘。",
+        "vocabulary": [
+          {
+            "word": "umbrella",
+            "pos": "n.",
+            "meaning": "雨傘",
+            "example": "You need an umbrella on a rainy day."
+          },
+          {
+            "word": "heavily",
+            "pos": "adv.",
+            "meaning": "大量地；猛烈地",
+            "example": "It snowed heavily last night."
+          }
+        ],
+        "grammar": "「forget to + 原形動詞」表示「忘記要做某事」；祈使句以原形動詞開頭。",
+        "phrase": "take... with you (隨身攜帶……)"
+      }
+    },
+    {
+      "id": "v52",
+      "question": "Eating too much fast food is not good for your ________. You should eat more vegetables.",
+      "options": [
+        "A. height",
+        "B. health",
+        "C. hobby",
+        "D. holiday"
+      ],
+      "correct": "B",
+      "explanation": {
+        "translation": "吃太多速食對你的健康不好。你應該多吃蔬菜。",
+        "vocabulary": [
+          {
+            "word": "health",
+            "pos": "n.",
+            "meaning": "健康",
+            "example": "Good sleep is important for your health."
+          },
+          {
+            "word": "vegetable",
+            "pos": "n.",
+            "meaning": "蔬菜",
+            "example": "Carrots are my favorite vegetable."
+          }
+        ],
+        "grammar": "動名詞片語「Eating too much fast food」作主詞，視為單數，接單數動詞 is。",
+        "phrase": "be good for (對……有益)"
+      }
+    },
+    {
+      "id": "v53",
+      "question": "The train was so ________ that Leo could not find a seat and had to stand all the way.",
+      "options": [
+        "A. quiet",
+        "B. empty",
+        "C. crowded",
+        "D. polite"
+      ],
+      "correct": "C",
+      "explanation": {
+        "translation": "火車太擁擠了，以至於里歐找不到座位，只好一路站著。",
+        "vocabulary": [
+          {
+            "word": "crowded",
+            "pos": "adj.",
+            "meaning": "擁擠的",
+            "example": "The night market is always crowded on weekends."
+          },
+          {
+            "word": "seat",
+            "pos": "n.",
+            "meaning": "座位",
+            "example": "Is this seat taken?"
+          }
+        ],
+        "grammar": "「so + 形容詞 + that + 子句」表「如此……以致於……」。",
+        "phrase": "all the way (一路；自始至終)"
+      }
+    },
+    {
+      "id": "v54",
+      "question": "The waiter handed us the ________ and asked what we would like to have for dinner.",
+      "options": [
+        "A. menu",
+        "B. ticket",
+        "C. mirror",
+        "D. wallet"
+      ],
+      "correct": "A",
+      "explanation": {
+        "translation": "服務生遞給我們菜單，並詢問我們晚餐想吃什麼。",
+        "vocabulary": [
+          {
+            "word": "menu",
+            "pos": "n.",
+            "meaning": "菜單",
+            "example": "May I look at the dessert menu?"
+          },
+          {
+            "word": "waiter",
+            "pos": "n.",
+            "meaning": "男服務生",
+            "example": "The waiter was friendly and helpful."
+          }
+        ],
+        "grammar": "授與動詞 hand 接雙賓語：hand + 人 (間接受詞) + 物 (直接受詞)。",
+        "phrase": "would like to (想要)"
+      }
+    },
+    {
+      "id": "v55",
+      "question": "Math is the most ________ subject for Tina; she always spends hours trying to understand the rules.",
+      "options": [
+        "A. exciting",
+        "B. difficult",
+        "C. popular",
+        "D. convenient"
+      ],
+      "correct": "B",
+      "explanation": {
+        "translation": "數學對蒂娜來說是最困難的科目；她總是花好幾個小時試著理解這些公式規則。",
+        "vocabulary": [
+          {
+            "word": "difficult",
+            "pos": "adj.",
+            "meaning": "困難的",
+            "example": "This question is too difficult for me."
+          },
+          {
+            "word": "subject",
+            "pos": "n.",
+            "meaning": "科目；學科",
+            "example": "English is my favorite subject."
+          }
+        ],
+        "grammar": "最高級用法：the most + 三音節以上形容詞 difficult。",
+        "phrase": "spend + 時間 + V-ing (花費時間做某事)"
+      }
+    },
+    {
+      "id": "v56",
+      "question": "Please don't throw ________ on the ground. Keep the park clean and beautiful.",
+      "options": [
+        "A. noise",
+        "B. trash",
+        "C. grass",
+        "D. space"
+      ],
+      "correct": "B",
+      "explanation": {
+        "translation": "請不要在地上亂丟垃圾。保持公園乾淨與美麗。",
+        "vocabulary": [
+          {
+            "word": "trash",
+            "pos": "n.",
+            "meaning": "垃圾 (不可數)",
+            "example": "Please take out the trash after dinner."
+          },
+          {
+            "word": "ground",
+            "pos": "n.",
+            "meaning": "地面",
+            "example": "Leaves fell to the ground."
+          }
+        ],
+        "grammar": "「keep + 受詞 + 形容詞」表示「保持……處於某狀態」。",
+        "phrase": "on the ground (在地上)"
+      }
+    },
+    {
+      "id": "v57",
+      "question": "Sam felt very ________ before the speech contest because it was his first time speaking in front of so many people.",
+      "options": [
+        "A. bored",
+        "B. nervous",
+        "C. angry",
+        "D. lucky"
+      ],
+      "correct": "B",
+      "explanation": {
+        "translation": "山姆在演講比賽前感到非常緊張，因為這是他第一次在這麼多人面前講話。",
+        "vocabulary": [
+          {
+            "word": "nervous",
+            "pos": "adj.",
+            "meaning": "緊張的",
+            "example": "I always get nervous before an exam."
+          },
+          {
+            "word": "contest",
+            "pos": "n.",
+            "meaning": "比賽；競賽",
+            "example": "She won first place in the art contest."
+          }
+        ],
+        "grammar": "連綴動詞 felt 接形容詞 nervous 作主詞補語。",
+        "phrase": "in front of (在……前方)"
+      }
+    },
+    {
+      "id": "v58",
+      "question": "This blue jacket is too small for me. Do you have it in a larger ________?",
+      "options": [
+        "A. color",
+        "B. size",
+        "C. price",
+        "D. shape"
+      ],
+      "correct": "B",
+      "explanation": {
+        "translation": "這件藍色夾克對我來說太小了。你們有大一點的尺寸嗎？",
+        "vocabulary": [
+          {
+            "word": "size",
+            "pos": "n.",
+            "meaning": "尺寸；尺碼",
+            "example": "What size shoes do you wear?"
+          },
+          {
+            "word": "jacket",
+            "pos": "n.",
+            "meaning": "夾克；外套",
+            "example": "Put on your jacket; it's cold outside."
+          }
+        ],
+        "grammar": "「in a + 比較級形容詞 + size」表示「以……的尺寸」。",
+        "phrase": "too... for... (對……來說太……)"
+      }
+    },
+    {
+      "id": "v59",
+      "question": "My sister likes music very much, and she can play several musical ________, such as the piano and violin.",
+      "options": [
+        "A. instruments",
+        "B. machines",
+        "C. languages",
+        "D. programs"
+      ],
+      "correct": "A",
+      "explanation": {
+        "translation": "我妹妹非常喜歡音樂，而且她會演奏好幾種樂器，例如鋼琴和小提琴。",
+        "vocabulary": [
+          {
+            "word": "instrument",
+            "pos": "n.",
+            "meaning": "樂器；器具",
+            "example": "Can you play any musical instruments?"
+          },
+          {
+            "word": "violin",
+            "pos": "n.",
+            "meaning": "小提琴",
+            "example": "He plays the violin very well."
+          }
+        ],
+        "grammar": "助動詞 can 後接原形動詞 play；彈奏樂器時通常加定冠詞 the（play the piano）。",
+        "phrase": "such as (例如)"
+      }
+    },
+    {
+      "id": "v60",
+      "question": "The fire fighters were very ________. They ran into the burning building and saved three children.",
+      "options": [
+        "A. lazy",
+        "B. brave",
+        "C. careless",
+        "D. honest"
+      ],
+      "correct": "B",
+      "explanation": {
+        "translation": "消防員們非常勇敢。他們衝進著火的建築物救出了三個小孩。",
+        "vocabulary": [
+          {
+            "word": "brave",
+            "pos": "adj.",
+            "meaning": "勇敢的",
+            "example": "It was brave of you to tell the truth."
+          },
+          {
+            "word": "save",
+            "pos": "v.",
+            "meaning": "拯救；挽救",
+            "example": "The doctor saved the patient's life."
+          }
+        ],
+        "grammar": "過去式連綴動詞 were 接形容詞 brave 作補語。",
+        "phrase": "run into (跑進；偶遇)"
+      }
     }
   ],
   "grammar": [
@@ -1884,6 +2184,156 @@
         ],
         "grammar": "附加問句規則：前半句為否定句（doesn't like），附加問句須用肯定形（does he）；主詞 your father 為男性單數，代名詞用 he。",
         "phrase": "None"
+      }
+    },
+    {
+      "id": "g26",
+      "question": "While Linda ________ a shower, the telephone suddenly rang.",
+      "options": [
+        "A. takes",
+        "B. took",
+        "C. is taking",
+        "D. was taking"
+      ],
+      "correct": "D",
+      "explanation": {
+        "translation": "當琳達正在洗澡時，電話突然響了。",
+        "vocabulary": [
+          {
+            "word": "shower",
+            "pos": "n.",
+            "meaning": "淋浴",
+            "example": "I usually take a shower in the evening."
+          },
+          {
+            "word": "suddenly",
+            "pos": "adv.",
+            "meaning": "突然地",
+            "example": "The lights went out suddenly."
+          }
+        ],
+        "grammar": "「While + 過去進行式 (was/were + V-ing), 過去簡單式子句」表示過去某長時間進行的動作中，被另一短時間動作打斷。",
+        "phrase": "take a shower (洗淋浴)"
+      }
+    },
+    {
+      "id": "g27",
+      "question": "This famous museum ________ by thousands of tourists every summer.",
+      "options": [
+        "A. visits",
+        "B. is visited",
+        "C. visited",
+        "D. was visited"
+      ],
+      "correct": "B",
+      "explanation": {
+        "translation": "這座著名的博物館每年夏天都受到成千上萬名遊客的造訪。",
+        "vocabulary": [
+          {
+            "word": "tourist",
+            "pos": "n.",
+            "meaning": "觀光客；遊客",
+            "example": "Many tourists come to Taiwan for street food."
+          },
+          {
+            "word": "museum",
+            "pos": "n.",
+            "meaning": "博物館",
+            "example": "We learned a lot at the science museum."
+          }
+        ],
+        "grammar": "主詞「This famous museum」為受動者，且時間副詞為「every summer」表示習慣常態，故用現在簡單式的被動語態 (is + p.p.)。",
+        "phrase": "thousands of (成千上萬的)"
+      }
+    },
+    {
+      "id": "g28",
+      "question": "Kevin doesn't run as ________ as his brother, but he never gives up.",
+      "options": [
+        "A. fast",
+        "B. faster",
+        "C. fastest",
+        "D. more fast"
+      ],
+      "correct": "A",
+      "explanation": {
+        "translation": "凱文跑得沒有他哥哥那麼快，但他從不放棄。",
+        "vocabulary": [
+          {
+            "word": "fast",
+            "pos": "adv.",
+            "meaning": "快速地",
+            "example": "He speaks too fast for me to follow."
+          },
+          {
+            "word": "give up",
+            "pos": "phr.",
+            "meaning": "放棄",
+            "example": "Don't give up your dreams."
+          }
+        ],
+        "grammar": "同級比較否定句「not as + 原級副詞/形容詞 + as」，修飾動詞 run 需用副詞原級 fast。",
+        "phrase": "give up (放棄)"
+      }
+    },
+    {
+      "id": "g29",
+      "question": "Mom made my younger brother ________ his room before he went out to play basketball.",
+      "options": [
+        "A. cleaned",
+        "B. clean",
+        "C. to clean",
+        "D. cleaning"
+      ],
+      "correct": "B",
+      "explanation": {
+        "translation": "媽媽叫我弟弟在出去打籃球前先把房間打掃乾淨。",
+        "vocabulary": [
+          {
+            "word": "clean",
+            "pos": "v.",
+            "meaning": "打掃；清理",
+            "example": "I need to clean my bedroom this weekend."
+          },
+          {
+            "word": "younger",
+            "pos": "adj.",
+            "meaning": "較年輕的",
+            "example": "She has a younger sister."
+          }
+        ],
+        "grammar": "使役動詞 make/have/let 後接人時，受詞補語使用「原形動詞」(make + O + V)。",
+        "phrase": "go out (外出)"
+      }
+    },
+    {
+      "id": "g30",
+      "question": "Mr. and Mrs. Smith ________ in Tainan for ten years and they really love the city.",
+      "options": [
+        "A. live",
+        "B. will live",
+        "C. have lived",
+        "D. lived"
+      ],
+      "correct": "C",
+      "explanation": {
+        "translation": "史密斯夫婦已經在臺南住了十年，而且他們非常喜歡這座城市。",
+        "vocabulary": [
+          {
+            "word": "couple",
+            "pos": "n.",
+            "meaning": "夫妻；一對",
+            "example": "They are a happy couple."
+          },
+          {
+            "word": "decade",
+            "pos": "n.",
+            "meaning": "十年",
+            "example": "He has worked here for a decade."
+          }
+        ],
+        "grammar": "「for + 一段時間 (for ten years)」配合持續到現在的動作，主要子句應使用現在完成式 (have/has + p.p.)，主詞為複數，用 have lived。",
+        "phrase": "for ten years (長達十年)"
       }
     }
   ],
@@ -2796,6 +3246,132 @@
             ],
             "grammar": "判斷正誤題：第一段提到「they are open 24 hours a day」，與選項 D（提供大眾 24 小時服務）相符。A 錯在店數超過 13,000 家；B 錯在全天候營業未休週末；C 錯在許多店家設有座位區。",
             "phrase": "not only ... but also ... (不僅……而且……)"
+          }
+        }
+      ]
+    },
+    {
+      "articleId": "a8",
+      "articleText": "Night markets are an important part of Taiwanese culture. Millions of people visit them every year for delicious street food like stinky tofu, fried chicken, and pearl milk tea. However, night markets also create a serious environmental problem: a huge amount of trash. Most food stalls use single-use plastic cups, paper bowls, and plastic bags. Every evening, tons of garbage are left behind.\n\nTo solve this problem, a famous night market in Taichung started a new project called \"Green Night Market\" last month. Under this project, visitors can borrow reusable bowls and cups for free at the entrance. All they need to do is pay a small deposit of 50 NT dollars per item. When they finish their meals and return the clean bowls and cups to any service station in the market, they get their money back.\n\nAt first, some people thought it was inconvenient. However, after just a few weeks, more and more people joined the program. In fact, the amount of plastic waste dropped by almost 30% in the first month alone. Several stall owners also offer small discounts, like five dollars off, to customers who bring their own tableware. If this project continues to be successful, the government plans to bring the idea to other night markets across Taiwan.",
+      "questions": [
+        {
+          "id": "r36",
+          "question": "What is the main idea of this article?",
+          "options": [
+            "A. Why Taiwanese street food is popular around the world.",
+            "B. How a night market is working to reduce trash.",
+            "C. The history of night markets in Taichung.",
+            "D. Different ways to cook delicious night market food."
+          ],
+          "correct": "B",
+          "explanation": {
+            "translation": "這篇文章的主旨是什麼？",
+            "vocabulary": [
+              {
+                "word": "reduce",
+                "pos": "v.",
+                "meaning": "減少",
+                "example": "We should reduce plastic waste to protect nature."
+              }
+            ],
+            "grammar": "主旨題：整篇文章重點在於介紹台中某夜市如何透過借用環保餐具計畫來減少垃圾問題。",
+            "phrase": "work to (努力致力於……)"
+          }
+        },
+        {
+          "id": "r37",
+          "question": "What problem do night markets face according to the first paragraph?",
+          "options": [
+            "A. Food prices are getting too high.",
+            "B. Not enough tourists want to visit them.",
+            "C. They produce too much plastic and paper waste.",
+            "D. Stalls are not allowed to sell drinks anymore."
+          ],
+          "correct": "C",
+          "explanation": {
+            "translation": "根據第一段，夜市面臨什麼問題？",
+            "vocabulary": [
+              {
+                "word": "produce",
+                "pos": "v.",
+                "meaning": "產生；製造",
+                "example": "Factories produce a lot of smoke."
+              }
+            ],
+            "grammar": "細節理解題：第一段提及「night markets also create a serious environmental problem: a huge amount of trash. Most food stalls use single-use plastic cups, paper bowls...」。",
+            "phrase": "according to (根據)"
+          }
+        },
+        {
+          "id": "r38",
+          "question": "What does the word \"deposit\" most likely mean in the second paragraph?",
+          "options": [
+            "A. Money paid to buy a special gift.",
+            "B. Money you pay and will get back later.",
+            "C. A prize given to the best customer.",
+            "D. A fee you pay to enter the night market."
+          ],
+          "correct": "B",
+          "explanation": {
+            "translation": "第二段中的單字「deposit」最可能是什麼意思？",
+            "vocabulary": [
+              {
+                "word": "deposit",
+                "pos": "n.",
+                "meaning": "押金；保證金",
+                "example": "You have to pay a deposit for the bicycle key."
+              }
+            ],
+            "grammar": "字義推敲題：根據後句「When they... return the clean bowls and cups... they get their money back」，可知 deposit 是歸還物品時會退還的「押金」。",
+            "phrase": "get... back (取回……)"
+          }
+        },
+        {
+          "id": "r39",
+          "question": "How can visitors get a reusable bowl at the \"Green Night Market\"?",
+          "options": [
+            "A. By paying 50 NT dollars as a deposit at the entrance.",
+            "B. By helping stall owners wash dirty dishes.",
+            "C. By bringing their own trash to the service station.",
+            "D. By buying at least three different kinds of food."
+          ],
+          "correct": "A",
+          "explanation": {
+            "translation": "遊客在「綠色夜市」如何取得環保碗？",
+            "vocabulary": [
+              {
+                "word": "reusable",
+                "pos": "adj.",
+                "meaning": "可重複使用的",
+                "example": "Bring reusable bags when shopping."
+              }
+            ],
+            "grammar": "細節題：第二段指出「visitors can borrow reusable bowls and cups for free... All they need to do is pay a small deposit of 50 NT dollars per item.」",
+            "phrase": "All you need to do is... (你唯一需要做的就是……)"
+          }
+        },
+        {
+          "id": "r40",
+          "question": "Which of the following is TRUE about the \"Green Night Market\" project?",
+          "options": [
+            "A. People have to return the bowls to the same stall where they bought food.",
+            "B. The amount of plastic waste dropped by nearly 30% in the first month.",
+            "C. Visitors are not allowed to bring their own tableware to the market.",
+            "D. The program was stopped because nobody wanted to use it."
+          ],
+          "correct": "B",
+          "explanation": {
+            "translation": "關於「綠色夜市」計畫，下列何者正確？",
+            "vocabulary": [
+              {
+                "word": "drop",
+                "pos": "v.",
+                "meaning": "下降；跌落",
+                "example": "Temperatures will drop tomorrow."
+              }
+            ],
+            "grammar": "細節判斷題：第三段明確提到「the amount of plastic waste dropped by almost 30% in the first month alone.」故選 B。",
+            "phrase": "drop by (下降了……幅度和比例)"
           }
         }
       ]
