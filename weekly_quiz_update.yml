@@ -1,0 +1,44 @@
+name: Weekly Quiz Auto Update
+
+on:
+  schedule:
+    # UTC 13:00 對應台灣時間每週五 21:00
+    - cron: '0 13 * * 5'
+  workflow_dispatch: # 支援手動一鍵觸發測試
+
+permissions:
+  contents: write # 賦予自動 Push 提交新題目的權限
+
+jobs:
+  update-quiz:
+    runs-on: ubuntu-latest
+    steps:
+      - name: 簽出儲存庫代碼
+        uses: actions/checkout@v4
+
+      - name: 設定 Python 環境
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: 安裝相依套件
+        run: |
+          pip install google-generativeai
+
+      - name: 執行題庫生成腳本
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+        run: |
+          python update_quiz.py
+
+      - name: 檢查並推送變更至儲存庫
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add quizData.json
+          if git diff --staged --quiet; then
+            echo "沒有任何變更需要提交。"
+          else
+            git commit -m "Auto: 每週定時擴充題庫 (由 Gemini API 自動生成)"
+            git push
+          fi
