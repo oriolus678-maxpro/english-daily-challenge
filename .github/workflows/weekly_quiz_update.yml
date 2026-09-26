@@ -23,6 +23,7 @@ jobs:
 
       - name: 安裝相依套件
         run: |
+          pip uninstall -y google-generativeai google-ai-generativelanguage
           pip install google-generativeai
 
       - name: 執行題庫生成腳本
