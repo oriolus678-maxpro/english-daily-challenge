@@ -1,14 +1,17 @@
 import os
 import json
 import re
-from google import genai
+import google.generativeai as genai
 
-# 1. 初始化最新版 Gemini API
+# 1. 初始化經典版 Gemini API
 API_KEY = os.environ.get("GEMINI_API_KEY")
 if not API_KEY:
     raise ValueError("找不到 GEMINI_API_KEY 環境變數，請確認 GitHub Secrets 設定。")
 
-client = genai.Client(api_key=API_KEY)
+genai.configure(api_key=API_KEY)
+
+# 使用穩定且支援的 gemini-2.0-flash 模型
+model = genai.GenerativeModel('gemini-2.0-flash')
 
 QUIZ_FILE = "quizData.json"
 
@@ -23,7 +26,6 @@ current_vocab_count = len(quiz_data.get("vocabulary", []))
 current_grammar_count = len(quiz_data.get("grammar", []))
 current_reading_count = len(quiz_data.get("reading", []))
 
-# 計算下一個題目的起始 ID
 next_v_id = current_vocab_count + 1
 next_g_id = current_grammar_count + 1
 next_a_id = current_reading_count + 1
@@ -79,11 +81,8 @@ JSON 結構範例：
 }}
 """
 
-print("正在請求最新版 Gemini 2.5 API 生成新題目...")
-response = client.models.generate_content(
-    model='gemini-2.5-flash',
-    contents=prompt
-)
+print("正在請求 Gemini API 生成新題目...")
+response = model.generate_content(prompt)
 clean_text = response.text.strip()
 
 # 清除可能包裹的 markdown 標籤
