@@ -1,15 +1,14 @@
 import os
 import json
 import re
-import google.generativeai as genai
+from google import genai
 
-# 1. 初始化 Gemini API
+# 1. 初始化最新版 Gemini API
 API_KEY = os.environ.get("GEMINI_API_KEY")
 if not API_KEY:
     raise ValueError("找不到 GEMINI_API_KEY 環境變數，請確認 GitHub Secrets 設定。")
 
-genai.configure(api_key=API_KEY)
-model = genai.GenerativeModel("gemini-1.5-flash")
+client = genai.Client(api_key=API_KEY)
 
 QUIZ_FILE = "quizData.json"
 
@@ -29,7 +28,7 @@ next_v_id = current_vocab_count + 1
 next_g_id = current_grammar_count + 1
 next_a_id = current_reading_count + 1
 
-# 3. 設定生成提示詞 (每週補充：10 題詞彙、5 題文法、1 篇閱讀)
+# 3. 設定生成提示詞
 prompt = f"""
 你是一位專業的台灣國中英語命題專家。請根據 CEFR A2 等級（台灣國中程度），生成全新題目。
 要求：
@@ -80,8 +79,11 @@ JSON 結構範例：
 }}
 """
 
-print("正在請求 Gemini API 生成新題目...")
-response = model.generate_content(prompt)
+print("正在請求最新版 Gemini 2.5 API 生成新題目...")
+response = client.models.generate_content(
+    model='gemini-2.5-flash',
+    contents=prompt
+)
 clean_text = response.text.strip()
 
 # 清除可能包裹的 markdown 標籤
